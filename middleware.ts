@@ -1,6 +1,9 @@
 import { updateSession } from '@/lib/supabase/middleware'
 import { type NextRequest, NextResponse } from 'next/server'
 
+// 指定使用Node.js运行时
+export const runtime = 'nodejs'
+
 export async function middleware(request: NextRequest) {
   // 定义重定向规则
   const redirects = [
