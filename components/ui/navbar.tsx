@@ -146,10 +146,7 @@ const Navbar = () => {
                 </DropdownMenu>
               </>
             ) : (
-              <div className="flex items-center space-x-4">
-                <Link href="/pricing">
-                  <Button variant="ghost">Pricing</Button>
-                </Link>
+              <div className="flex items-center">
                 <Link href="/auth">
                   <Button>Sign In</Button>
                 </Link>
