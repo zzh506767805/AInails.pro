@@ -13,61 +13,61 @@ export default function SEOContent() {
       {
         '@type': 'ListItem',
         'position': 1,
-                  'item': {
-          '@type': 'Product',
+        'item': {
+          '@type': 'CreativeWork',
           'name': 'Elegant French Manicure with Floral Accents',
           'image': 'https://ainails.pro/images/featured_nail_french.png',
           'description': 'Professional nail art design with delicate white tips and pink flower patterns',
-          'category': 'Nail Art Design',
-          'offers': {
-            '@type': 'Offer',
-            'availability': 'https://schema.org/InStock'
-          }
+          'creator': {
+            '@type': 'Organization',
+            'name': 'AInails'
+          },
+          'datePublished': '2023-08-01'
         }
       },
       {
         '@type': 'ListItem',
         'position': 2,
-                  'item': {
-          '@type': 'Product',
+        'item': {
+          '@type': 'CreativeWork',
           'name': 'Trendy Geometric Nail Art with Bold Patterns',
           'image': 'https://ainails.pro/images/featured_nail_geometric.png',
           'description': 'Modern manicure featuring abstract shapes in vibrant colors',
-          'category': 'Nail Art Design',
-          'offers': {
-            '@type': 'Offer',
-            'availability': 'https://schema.org/InStock'
-          }
+          'creator': {
+            '@type': 'Organization',
+            'name': 'AInails'
+          },
+          'datePublished': '2023-08-15'
         }
       },
       {
         '@type': 'ListItem',
         'position': 3,
-                  'item': {
-          '@type': 'Product',
+        'item': {
+          '@type': 'CreativeWork',
           'name': 'Luxury Gradient Ombré Nails with Rhinestone Accents',
           'image': 'https://ainails.pro/images/featured_nail_ombre.png',
           'description': 'Premium salon-quality manicure with smooth color transition and sparkle details',
-          'category': 'Nail Art Design',
-          'offers': {
-            '@type': 'Offer',
-            'availability': 'https://schema.org/InStock'
-          }
+          'creator': {
+            '@type': 'Organization',
+            'name': 'AInails'
+          },
+          'datePublished': '2023-09-01'
         }
       },
       {
         '@type': 'ListItem',
         'position': 4,
-                  'item': {
-          '@type': 'Product',
+        'item': {
+          '@type': 'CreativeWork',
           'name': 'Minimalist Nude Nails with Artistic Line Work',
           'image': 'https://ainails.pro/images/featured_nail_minimalist.png',
           'description': 'Contemporary nail art combining natural tones with delicate hand-drawn elements',
-          'category': 'Nail Art Design',
-          'offers': {
-            '@type': 'Offer',
-            'availability': 'https://schema.org/InStock'
-          }
+          'creator': {
+            '@type': 'Organization',
+            'name': 'AInails'
+          },
+          'datePublished': '2023-09-15'
         }
       }
     ]
