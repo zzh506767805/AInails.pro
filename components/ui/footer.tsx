@@ -64,6 +64,22 @@ export default function Footer() {
               >
                 DreamfinityX
               </a>
+              <a 
+                href="https://charactereadcanon.pro" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-xs text-gray-600 hover:text-red-500 transition-colors"
+              >
+                Character Read Canon
+              </a>
+              <a 
+                href="https://elfname.pro" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-xs text-gray-600 hover:text-red-500 transition-colors"
+              >
+                Elf Name
+              </a>
             </div>
           </div>
         </div>
