@@ -4,7 +4,7 @@ export default function AuthCodeError() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <Head>
-        <title>Authentication Error - DreamfinityX</title>
+        <title>Authentication Error - AInails</title>
         <meta name="robots" content="noindex, nofollow" />
       </Head>
       <div className="max-w-md w-full bg-white rounded-lg shadow-md p-6">

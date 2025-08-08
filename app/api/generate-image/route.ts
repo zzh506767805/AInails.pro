@@ -192,37 +192,36 @@ export async function POST(request: NextRequest) {
       return `data:image/${output_format};base64,${item.b64_json}`
     })
 
-    // 生成成功后消耗credits - 使用consume API
+    // 生成成功后消耗credits - 直接调用Supabase而不是内部API
     const generationId = `gen_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`
     
-    // 调用consume API来消费积分
-    const consumeResponse = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/credits/consume`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        // 传递认证Cookie
-        'Cookie': request.headers.get('cookie') || '',
-      },
-      // 确保保留认证状态
-      credentials: 'include',
-      body: JSON.stringify({
-        credits_to_consume: creditsNeeded,
-        generation_id: generationId, // 直接传递ID字符串，不做类型转换
-        description: `生成${n}张${quality}质量图片: ${prompt.substring(0, 50)}...`
-      }),
-    })
+    // 直接更新用户积分，避免内部API调用
+    const { error: consumeError } = await supabase
+      .from('user_credits')
+      .update({ 
+        used_credits: userCredits.used_credits + creditsNeeded 
+      })
+      .eq('user_id', currentUser.id)
     
     let creditsConsumed = false
-    let consumeError = null
     
-    if (!consumeResponse.ok) {
-      const errorText = await consumeResponse.text()
-      consumeError = errorText
-      console.error('Failed to consume credits:', errorText)
+    if (consumeError) {
+      console.error('Failed to consume credits:', consumeError)
       // 记录失败但继续处理 - 用户仍然会收到图片但是需要标记为未付款
     } else {
       creditsConsumed = true
       console.log(`Successfully consumed ${creditsNeeded} credits for generation ${generationId}`)
+      
+      // 记录积分交易历史
+      await supabase
+        .from('credit_transactions')
+        .insert({
+          user_id: currentUser.id,
+          transaction_type: 'consume',
+          credits_amount: -creditsNeeded,
+          description: `生成${n}张${quality}质量图片: ${prompt.substring(0, 50)}...`,
+          generation_id: generationId
+        })
     }
     
     // 记录生成历史到 image_generations 表
@@ -243,7 +242,6 @@ export async function POST(request: NextRequest) {
           output_format: output_format,
           generation_id: generationId,
           credits_consumed: creditsConsumed, // 添加积分消费状态
-          credits_error: consumeError, // 记录错误信息
           skinTone: normalizedSkinTone // 保存用户选择的肤色
         }
       })

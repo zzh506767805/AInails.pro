@@ -164,14 +164,14 @@ export default function HistoryPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Generation History - DreamfinityX AI Image Generator | Your AI Art Gallery</title>
-        <meta name="description" content="View your AI image generation history on DreamfinityX. Browse through all your AI-generated and edited images, manage your AI art collection." />
-        <meta name="keywords" content="AI image history, AI art gallery, image generation history, AI artwork collection, DreamfinityX history, AI creative dashboard" />
+        <title>Generation History - AInails | Your AI Art Gallery</title>
+        <meta name="description" content="View your AI image generation history on AInails. Browse through all your AI-generated and edited images, manage your AI art collection." />
+        <meta name="keywords" content="AI image history, AI art gallery, image generation history, AI artwork collection, AInails history, AI creative dashboard" />
         <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href="https://dreamfinityx.com/history" />
-        <meta property="og:title" content="Generation History - DreamfinityX AI Image Generator" />
-        <meta property="og:description" content="View your AI image generation history on DreamfinityX. Browse through all your AI-generated and edited images." />
-        <meta property="og:url" content="https://dreamfinityx.com/history" />
+        <link rel="canonical" href="https://ainails.pro/history" />
+        <meta property="og:title" content="Generation History - AInails" />
+        <meta property="og:description" content="View your AI image generation history on AInails. Browse through all your AI-generated and edited images." />
+        <meta property="og:url" content="https://ainails.pro/history" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
       </Head>
@@ -293,7 +293,7 @@ export default function HistoryPage() {
                       {generation.image_url && (
                         <a
                           href={generation.image_url}
-                          download={`dreamfinity-${generation.id}.png`}
+                          download={`ainails-${generation.id}.png`}
                           className="flex-1 px-3 py-2 bg-gray-900 text-white text-xs rounded-md hover:bg-gray-800 text-center"
                         >
                           Download

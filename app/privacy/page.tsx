@@ -2,18 +2,18 @@ import React from 'react';
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - DreamfinityX AI Platform',
-  description: 'Read our privacy policy to understand how DreamfinityX collects, uses, and protects your personal information and data.',
+  title: 'Privacy Policy - AInails',
+  description: 'Read our privacy policy to understand how AInails collects, uses, and protects your personal information and data.',
   keywords: 'privacy policy, data protection, personal information, AI platform privacy, user data, cookies',
   robots: 'index, follow',
   openGraph: {
-    title: 'Privacy Policy - DreamfinityX AI Platform',
-    description: 'Read our privacy policy to understand how DreamfinityX collects, uses, and protects your personal information.',
-    url: 'https://dreamfinityx.com/privacy',
+    title: 'Privacy Policy - AInails',
+    description: 'Read our privacy policy to understand how AInails collects, uses, and protects your personal information.',
+    url: 'https://ainails.pro/privacy',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://dreamfinityx.com/privacy',
+    canonical: 'https://ainails.pro/privacy',
   },
 }
 
@@ -25,7 +25,7 @@ export default function PrivacyPage() {
         <strong>Last updated:</strong> {new Date().toLocaleDateString()}
       </p>
       <p className="mb-6 text-gray-700">
-        At DreamfinityX, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our AI image generation and editing platform.
+        At AInails, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our AI nail art generation and editing platform.
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">1. Information We Collect</h2>
@@ -148,7 +148,7 @@ export default function PrivacyPage() {
       <div className="bg-gray-50 p-4 rounded-lg">
         <p className="text-gray-700">
           <strong>Email:</strong> zeta@myowncoach.online<br/>
-          <strong>Website:</strong> https://dreamfinityx.com
+          <strong>Website:</strong> https://ainails.pro
         </p>
       </div>
 

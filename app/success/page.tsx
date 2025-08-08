@@ -81,23 +81,7 @@ function SuccessContent() {
         // 立即刷新用户数据，使用我们的防抖处理
         refreshUserDataWithDebounce()
         
-        // 延迟获取最新数据
-        setTimeout(async () => {
-          try {
-            const testResponse = await fetch('/api/payments/test', {
-              headers: { 'Cache-Control': 'no-cache' }
-            })
-            if (testResponse.ok) {
-              const testData = await testResponse.json()
-              console.log('Updated user data after payment:', testData)
-              
-              // 测试数据获取后再次刷新用户数据
-              refreshUserDataWithDebounce()
-            }
-          } catch (error) {
-            console.error('Error fetching updated data:', error)
-          }
-        }, 2000)
+        // 已完成一次刷新，这里移除对不存在测试接口的调用，避免无效请求
       } else {
         const error = await response.json()
         console.error('Payment verification failed:', error)
@@ -150,14 +134,14 @@ function SuccessContent() {
   return (
     <div className="min-h-screen bg-gray-50 py-16">
       <Head>
-        <title>Payment Successful - DreamfinityX AI Image Generator | Thank You</title>
-        <meta name="description" content="Payment successful! Your DreamfinityX subscription or credits have been activated. Start creating stunning AI images and artwork today." />
-        <meta name="keywords" content="payment successful, AI image generator subscription, AI art credits, payment confirmation, DreamfinityX success" />
+        <title>Payment Successful - AInails | Thank You</title>
+        <meta name="description" content="Payment successful! Your AInails subscription or credits have been activated. Start creating stunning AI nail art designs today." />
+        <meta name="keywords" content="payment successful, AI nail art generator subscription, AI art credits, payment confirmation, AInails success" />
         <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href="https://dreamfinityx.com/success" />
-        <meta property="og:title" content="Payment Successful - DreamfinityX AI Image Generator" />
-        <meta property="og:description" content="Payment successful! Your DreamfinityX subscription or credits have been activated. Start creating stunning AI images today." />
-        <meta property="og:url" content="https://dreamfinityx.com/success" />
+        <link rel="canonical" href="https://ainails.pro/success" />
+        <meta property="og:title" content="Payment Successful - AInails" />
+        <meta property="og:description" content="Payment successful! Your AInails subscription or credits have been activated. Start creating stunning AI nail art designs today." />
+        <meta property="og:url" content="https://ainails.pro/success" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
       </Head>
