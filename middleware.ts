@@ -18,25 +18,41 @@ function getLocale(request: NextRequest): string | undefined {
 }
 
 export async function middleware(request: NextRequest) {
-  const pathname = request.nextUrl.pathname
+  const url = new URL(request.url)
+  const pathname = url.pathname
 
-  // Check if there is any supported locale in the pathname
-  const pathnameIsMissingLocale = i18n.locales.every(
-    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
+  const localePrefixes = new Set(i18n.locales)
+
+  // 绕过 sitemap.xml（顶层路由，不参与多语言重写/重定向）
+  if (pathname === '/sitemap.xml') {
+    return NextResponse.next()
+  }
+
+  // 1) 规范化：如果是英文路径带有 /en 前缀，301 到无前缀，确保 canonical 稳定
+  if (pathname === '/en' || pathname.startsWith('/en/')) {
+    const targetPath = pathname.replace(/^\/en(\/|$)/, '/').replace(/\/+$/, '') || '/'
+    const redirectUrl = new URL(targetPath + url.search, url.origin)
+    return NextResponse.redirect(redirectUrl, 301)
+  }
+
+  // 2) 如果缺少任何已支持语言前缀：
+  //    - 若为英文（默认）用户：rewrite 到内部 /en，但对外 URL 保持不变（不 301），避免主页被加 /en
+  //    - 若为其他语言：301 到带语言前缀的规范 URL
+  const pathnameHasLocale = i18n.locales.some(
+    (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
   )
 
-  // Redirect if there is no locale
-  if (pathnameIsMissingLocale) {
-    const locale = getLocale(request)
-
-    // e.g. incoming request is /products
-    // The new URL is now /en-US/products
-    return NextResponse.redirect(
-      new URL(
-        `/${locale}${pathname.startsWith('/') ? '' : '/'}${pathname}`,
-        request.url
-      )
-    )
+  if (!pathnameHasLocale) {
+    const bestLocale = getLocale(request) || i18n.defaultLocale
+    if (bestLocale === 'en') {
+      // 内部重写：/foo -> /en/foo，但地址栏不变
+      const rewritePath = pathname === '/' ? '/en' : `/en${pathname}`
+      return NextResponse.rewrite(new URL(rewritePath + url.search, url.origin))
+    }
+    // 其他语言：对外显示语言前缀，做 301 规范化
+    const redirectPath = pathname === '/' ? `/${bestLocale}` : `/${bestLocale}${pathname}`
+    const redirectUrl = new URL(redirectPath + url.search, url.origin)
+    return NextResponse.redirect(redirectUrl, 301)
   }
 
   // Apply authentication middleware after locale handling
