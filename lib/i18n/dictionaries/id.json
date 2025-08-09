@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "pricing": "Harga", 
+    "history": "Riwayat",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "login": "Masuk",
+    "logout": "Keluar"
+  },
+  "hero": {
+    "badge": "Generator Seni Kuku Bertenaga AI",
+    "title": "Buat Seni Kuku yang Indah",
+    "subtitle": "dengan Keajaiban AI",
+    "description": "Ubah ide seni kuku Anda menjadi desain yang menakjubkan menggunakan teknologi AI terdepan. Sempurna untuk nail artist, profesional kecantikan, dan penggemar seni kuku."
+  },
+  "generator": {
+    "title": "Generator Seni Kuku AI", 
+    "description": "Deskripsikan desain kuku impian Anda dan AI kami akan membuatkannya untuk Anda",
+    "placeholder": "misal: Manikur Prancis yang elegan dengan gradien pink dan pola bunga, sempurna untuk pernikahan musim semi...",
+    "labels": {
+      "describe": "Deskripsikan desain kuku Anda",
+      "style": "Gaya",
+      "colorPalette": "Palet Warna", 
+      "quality": "Kualitas",
+      "skinTone": "Warna Kulit"
+    },
+    "styles": {
+      "elegant": "Elegan",
+      "bold": "Berani & Dramatis",
+      "minimalist": "Minimalis", 
+      "vintage": "Vintage",
+      "modern": "Modern"
+    },
+    "colors": {
+      "pink": "Pink & Rose",
+      "blue": "Biru & Ungu",
+      "neutral": "Netral",
+      "bright": "Cerah & Vibran", 
+      "dark": "Gelap & Misterius"
+    },
+    "qualities": {
+      "medium": "Kualitas Sedang (1 Kredit)",
+      "high": "Kualitas Tinggi (5 Kredit)"
+    },
+    "qualityNote": "Kualitas sedang sempurna untuk sebagian besar penggunaan. Kualitas tinggi menawarkan detail superior untuk pekerjaan profesional.",
+    "skinTones": {
+      "fair": "Kulit cerah",
+      "light": "Kulit terang", 
+      "medium": "Kulit sedang",
+      "olive": "Kulit zaitun",
+      "brown": "Kulit coklat",
+      "dark": "Kulit gelap"
+    },
+    "skinToneNote": "Pilih warna kulit yang akan muncul dalam desain kuku Anda",
+    "generate": "Buat Seni Kuku",
+    "generating": "Membuat...",
+    "save": "Simpan",
+    "share": "Bagikan",
+    "download": "Unduh Semua"
+  },
+  "footer": {
+    "description": "Generator seni kuku bertenaga AI untuk membuat desain kuku yang indah.",
+    "links": "Tautan Cepat",
+    "resources": "Sumber Daya", 
+    "support": "Dukungan",
+    "legal": "Hukum",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Layanan",
+    "contact": "Hubungi Kami",
+    "about": "Tentang Kami"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "retry": "Coba Lagi",
+    "close": "Tutup",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "view": "Lihat",
+    "share": "Bagikan",
+    "download": "Unduh",
+    "copy": "Salin", 
+    "copied": "Tersalin!",
+    "yes": "Ya",
+    "no": "Tidak"
+  },
+  "pricing": {
+    "title": "Pilih Paket Kredit Anda",
+    "titleWithCredits": "Tambahkan Lebih Banyak Kredit",
+    "description": "Beli kredit AI untuk menghasilkan desain nail art yang indah. Setiap kredit dapat menghasilkan satu gambar kualitas sedang atau 1/5 dari gambar kualitas tinggi.",
+    "descriptionWithSubscription": "Anda memiliki langganan {subscriptionName} yang aktif. Beli kredit tambahan di bawah ini.",
+    "monthly": "Bulanan",
+    "yearly": "Tahunan",
+    "oneTime": "sekali",
+    "mostPopular": "Paling Populer",
+    "getStarted": "Mulai",
+    "startFree": "Mulai Gratis",
+    "choosePlan": "Pilih Paket",
+    "buyNow": "Beli Sekarang",
+    "currentPlan": "Paket Saat Ini",
+    "upgrade": "Upgrade",
+    "features": "Fitur",
+    "credits": "Kredit",
+    "support": "Dukungan",
+    "priority": "Prioritas",
+    "aiCredits": "Kredit AI",
+    "mediumQualityDesigns": "desain kualitas sedang",
+    "highQualityDesigns": "desain kualitas tinggi",
+    "noExpiration": "Tanpa kadaluwarsa",
+    "addedToSubscription": "Ditambahkan ke langganan Anda",
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "description": "Sempurna untuk mencoba generasi nail art",
+        "features": {
+          "designs": "3 desain kuku gratis",
+          "quality": "Desain kualitas standar",
+          "support": "Dukungan dasar",
+          "community": "Akses komunitas"
+        }
+      },
+      "basic": {
+        "name": "Dasar",
+        "description": "Sempurna untuk nail artist dan profesional kecantikan",
+        "features": {
+          "designs": "60 desain kuku",
+          "quality": "Desain kualitas sedang",
+          "processing": "Pemrosesan prioritas",
+          "history": "Riwayat dasar",
+          "support": "Dukungan prioritas"
+        }
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Sempurna untuk kreator konten dan bisnis kecantikan",
+        "features": {
+          "designs": "120 desain kuku",
+          "basicFeatures": "Semua fitur Dasar",
+          "quality": "Desain kualitas tinggi",
+          "bulk": "Generasi massal",
+          "settings": "Pengaturan lanjutan",
+          "support": "Dukungan khusus"
+        }
+      },
+      "max": {
+        "name": "Max",
+        "description": "Sempurna untuk studio profesional dan perusahaan besar",
+        "features": {
+          "designs": "300 desain kuku",
+          "proFeatures": "Semua fitur Pro",
+          "api": "Akses API",
+          "models": "Model khusus",
+          "support": "Dukungan enterprise",
+          "whiteLabel": "Opsi white-label"
+        }
+      }
+    },
+    "creditPackages": {
+      "mini": {
+        "name": "Paket Mini",
+        "description": "Sempurna untuk proyek kecil"
+      },
+      "standard": {
+        "name": "Paket Standar",
+        "description": "Nilai bagus untuk penggunaan reguler"
+      },
+      "pro": {
+        "name": "Paket Pro",
+        "description": "Ideal untuk nail artist profesional"
+      },
+      "bulk": {
+        "name": "Paket Bulk",
+        "description": "Nilai terbaik untuk kebutuhan volume tinggi"
+      }
+    },
+    "howCreditsWork": {
+      "title": "Cara Kerja Kredit",
+      "consumption": {
+        "title": "Konsumsi Kredit",
+        "mediumQuality": "Kualitas Sedang",
+        "highQuality": "Kualitas Tinggi",
+        "creditSingular": "Kredit",
+        "creditsPlural": "Kredit"
+      },
+      "whatCanGenerate": {
+        "title": "Apa Yang Bisa Anda Hasilkan",
+        "freePlan": "Paket Gratis (3 kredit)",
+        "basicPlan": "Paket Dasar (60 kredit)",
+        "proPlan": "Paket Pro (120 kredit)",
+        "maxPlan": "Paket Max (300 kredit)",
+        "mediumDesigns": "desain kualitas sedang, atau",
+        "highDesigns": "desain kualitas tinggi"
+      }
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "howToStart": {
+        "question": "Bagaimana cara memulai?",
+        "answer": "Daftar untuk akun gratis dan dapatkan 3 kredit AI gratis. Tidak memerlukan kartu kredit, mulai bereksperimen dengan generasi nail art AI segera."
+      },
+      "qualityDifference": {
+        "question": "Apa perbedaan antara tingkat kualitas?",
+        "answer": "Kualitas sedang (1 kredit) memberikan hasil yang baik untuk sebagian besar kasus penggunaan. Kualitas tinggi (5 kredit) menawarkan detail dan resolusi yang superior untuk pekerjaan profesional."
+      },
+      "commercialUse": {
+        "question": "Bisakah saya menggunakan desain secara komersial?",
+        "answer": "Semua desain nail art yang dihasilkan menjadi milik pengguna dan dapat digunakan secara bebas untuk tujuan komersial tanpa lisensi tambahan."
+      },
+      "upgradePlan": {
+        "question": "Bagaimana cara meng-upgrade paket saya?",
+        "answer": "Anda dapat meng-upgrade atau menurunkan paket Anda kapan saja di pengaturan akun, dengan biaya yang dihitung secara proporsional."
+      }
+    }
+  },
+  "auth": {
+    "login": "Masuk",
+    "logout": "Keluar", 
+    "signup": "Daftar",
+    "email": "Email",
+    "password": "Kata Sandi",
+    "forgotPassword": "Lupa Kata Sandi?",
+    "loginWith": "Masuk dengan",
+    "signupWith": "Daftar dengan",
+    "alreadyHaveAccount": "Sudah punya akun?",
+    "dontHaveAccount": "Belum punya akun?"
+  },
+  "seo": {
+    "title": "AI Nails: Buat Desain Kuku Memukau dengan AI",
+    "introduction": "Selamat datang di AI Nails, destinasi utama Anda untuk inspirasi nail art bertenaga AI. Baik Anda seorang nail artist, pemilik salon, atau sekadar menjelajahi gaya kreatif, tool desain kuku AI kami membantu Anda menciptakan tampilan kuku yang trendi dan personal dalam hitungan detik.",
+    "whatIsTitle": "Apa itu AI Nails?",
+    "whatIsDescription": "AI Nails adalah generator nail art cerdas yang menggunakan kecerdasan buatan canggih untuk menghasilkan desain kuku yang indah dan realistis berdasarkan preferensi Anda. Dari kuku minimalis hingga tampilan chrome yang berani, AI kami mencakup setiap gaya, warna, dan pola yang bisa dibayangkan.",
+    "whyUseTitle": "Mengapa Menggunakan AI untuk Desain Kuku?",
+    "benefits": {
+      "instant": "Dapatkan ide kuku yang dihasilkan AI secara instan, disesuaikan dengan gaya Anda",
+      "discover": "Temukan ribuan desain kuku AI yang unik",
+      "save": "Hemat waktu dan uang—tidak perlu scrolling Pinterest tanpa henti",
+      "perfect": "Sempurna untuk salon, konten media sosial, atau mencoba tampilan baru di rumah"
+    },
+    "featuredTitle": "Desain Nail Art Unggulan",
+    "featuredDescription": "Jelajahi koleksi desain nail art menakjubkan kami, yang menampilkan keserbagunaan dan kreativitas generator nail art AI kami. Setiap desain mewakili gaya dan teknik yang berbeda dalam nail art modern, memberikan inspirasi untuk manikur berikutnya.",
+    "mainTitle": "Generator Nail Art AI: Merevolusi Penciptaan Desain Kuku",
+    "mainDescription": "Generator nail art AI kami mewakili teknologi desain kuku terdepan, menggabungkan kecerdasan buatan dengan teknik nail art kreatif untuk menghadirkan desain kuku yang memukau dan personal. Baik Anda seorang nail artist profesional yang mencari inspirasi atau penggemar kecantikan yang menjelajahi tren nail art, platform kami menyediakan tools yang Anda butuhkan untuk menciptakan desain kuku yang luar biasa.",
+    "mainContent": {
+      "paragraph1": "Generator nail art menggunakan algoritma machine learning canggih untuk memahami preferensi gaya Anda dan menciptakan desain kuku unik yang sesuai dengan kepribadian Anda. Dari manikur Prancis klasik hingga pola geometris yang berani, teknologi desain kuku AI kami dapat menghasilkan ribuan variasi, memastikan Anda tidak akan kehabisan ide nail art.",
+      "paragraph2": "Nail artist profesional semakin beralih ke tools nail art AI untuk menyederhanakan alur kerja mereka dan menawarkan lebih banyak pilihan desain kepada klien. Generator desain kuku kami membantu artis menciptakan nail art kustom dengan cepat, memungkinkan mereka fokus pada penyempurnaan teknik dan memberikan layanan yang luar biasa."
+    },
+    "features": {
+      "advanced": "Nail Art AI Canggih",
+      "advancedDesc": "Generator nail art AI kami yang canggih menggunakan deep learning untuk menciptakan desain kuku berkualitas profesional. Sistem menganalisis tren nail art terkini dan menghasilkan ide desain kuku inovatif yang fashionable sekaligus unik.",
+      "custom": "Penciptaan Desain Kuku Kustom",
+      "customDesc": "Buat desain nail art yang dipersonalisasi sesuai dengan preferensi gaya Anda. Generator desain kuku kami mempertimbangkan skema warna, pola, dan acara untuk menghasilkan nail art yang sempurna untuk setiap peristiwa atau suasana hati.",
+      "professional": "Tools Nail Art Profesional",
+      "professionalDesc": "Akses tools nail art tingkat profesional dan software desain kuku yang menyaingi standar industri. Platform kami menyediakan nail artist dengan teknologi yang mereka butuhkan untuk menciptakan desain kuku menakjubkan secara efisien.",
+      "inspiration": "Galeri Inspirasi Nail Art",
+      "inspirationDesc": "Jelajahi ribuan desain nail art dan ide desain kuku yang dibuat oleh AI kami. Temukan inspirasi untuk proyek nail art berikutnya atau temukan tren nail art baru untuk dicoba.",
+      "education": "Sumber Daya Edukasi Nail Art",
+      "educationDesc": "Pelajari teknik nail art lanjutan dan prinsip desain kuku melalui tutorial komprehensif kami. Kuasai seni menciptakan desain kuku yang indah dengan bimbingan ahli dan bantuan AI.",
+      "business": "Solusi Bisnis Nail Art",
+      "businessDesc": "Kembangkan bisnis nail art Anda dengan tools dan sumber daya profesional kami. Platform kami membantu nail artist menyederhanakan alur kerja mereka dan menawarkan layanan desain kuku inovatif kepada klien."
+    },
+    "faq": {
+      "title": "Pertanyaan Yang Sering Diajukan Tentang Generasi Nail Art AI",
+      "questions": {
+        "howWorks": {
+          "question": "Bagaimana cara kerja generator nail art AI?",
+          "answer": "Generator nail art AI kami menggunakan algoritma machine learning canggih untuk menganalisis ribuan desain kuku dan menciptakan nail art unik berdasarkan preferensi Anda. Sistem mempertimbangkan teori warna, tren nail art terkini, dan prinsip desain untuk menghasilkan desain kuku berkualitas profesional."
+        },
+        "customize": {
+          "question": "Bisakah saya menyesuaikan desain kuku yang dihasilkan?",
+          "answer": "Tentu saja! Generator desain kuku kami memungkinkan Anda menyesuaikan warna, pola, dan gaya untuk menciptakan nail art yang dipersonalisasi. Anda dapat memodifikasi aspek apa pun dari desain nail art yang dihasilkan agar sesuai dengan preferensi Anda yang tepat."
+        },
+        "professional": {
+          "question": "Apakah nail art AI cocok untuk penggunaan profesional?",
+          "answer": "Ya! Nail artist profesional menggunakan tools nail art AI kami untuk menciptakan desain kustom bagi klien. Desain kuku yang dihasilkan memenuhi standar industri dan dapat diadaptasi untuk berbagai teknik dan aplikasi nail art."
+        },
+        "trends": {
+          "question": "Seberapa sering tren nail art baru ditambahkan?",
+          "answer": "Generator nail art kami terus diperbarui dengan tren nail art terbaru dan ide desain kuku. Kami memantau tren fashion dan perkembangan industri kecantikan untuk memastikan AI kami menciptakan desain kuku yang relevan dan fashionable."
+        }
+      }
+    },
+    "cta": {
+      "title": "Mengapa Memilih Generator Nail Art AI Kami?",
+      "forArtists": "Untuk Nail Artist",
+      "forEnthusiasts": "Untuk Penggemar Kecantikan",
+      "artistBenefits": {
+        "designs": "Akses ke ribuan desain nail art",
+        "tools": "Tools dan sumber daya nail art profesional",
+        "workflow": "Alur kerja desain kuku yang disederhanakan",
+        "trends": "Tren dan teknik nail art terbaru",
+        "business": "Peluang pertumbuhan bisnis"
+      },
+      "enthusiastBenefits": {
+        "personalized": "Ide nail art yang dipersonalisasi",
+        "easy": "Generator desain kuku yang mudah digunakan",
+        "trendy": "Desain nail art yang trendi",
+        "educational": "Sumber daya edukasi nail art",
+        "affordable": "Solusi nail art yang terjangkau"
+      },
+      "finalTitle": "Mulai Menciptakan Nail Art Indah Hari Ini",
+      "finalDescription": "Bergabunglah dengan ribuan nail artist dan penggemar kecantikan yang sudah menggunakan generator nail art AI kami untuk menciptakan desain kuku yang menakjubkan. Rasakan masa depan penciptaan nail art dengan teknologi desain kuku terdepan yang membuat nail art indah dapat diakses oleh semua orang."
+    }
+  }
+}

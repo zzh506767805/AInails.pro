@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "pricing": "Giá cả", 
+    "history": "Lịch sử",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất"
+  },
+  "hero": {
+    "badge": "Trình tạo nghệ thuật móng tay AI",
+    "title": "Tạo nghệ thuật móng tay đẹp",
+    "subtitle": "với phép màu AI",
+    "description": "Biến những ý tưởng nghệ thuật móng tay của bạn thành những thiết kế tuyệt đẹp bằng công nghệ AI tiên tiến. Hoàn hảo cho các nghệ sĩ làm móng, chuyên gia làm đẹp và những người đam mê nghệ thuật móng tay."
+  },
+  "generator": {
+    "title": "Trình tạo nghệ thuật móng tay AI", 
+    "description": "Mô tả thiết kế móng tay trong mơ của bạn và AI sẽ tạo ra cho bạn",
+    "placeholder": "ví dụ: Manicure Pháp thanh lịch với gradient hồng và hoa văn hoa, hoàn hảo cho đám cưới mùa xuân...",
+    "labels": {
+      "describe": "Mô tả thiết kế móng tay của bạn",
+      "style": "Phong cách",
+      "colorPalette": "Bảng màu", 
+      "quality": "Chất lượng",
+      "skinTone": "Màu da"
+    },
+    "styles": {
+      "elegant": "Thanh lịch",
+      "bold": "Táo bạo & Kịch tính",
+      "minimalist": "Tối giản", 
+      "vintage": "Cổ điển",
+      "modern": "Hiện đại"
+    },
+    "colors": {
+      "pink": "Hồng & Rose",
+      "blue": "Xanh & Tím",
+      "neutral": "Trung tính",
+      "bright": "Sáng & Rực rỡ", 
+      "dark": "Tối & Bí ẩn"
+    },
+    "qualities": {
+      "medium": "Chất lượng trung bình (1 Credit)",
+      "high": "Chất lượng cao (5 Credits)"
+    },
+    "qualityNote": "Chất lượng trung bình hoàn hảo cho hầu hết các mục đích sử dụng. Chất lượng cao cung cấp chi tiết vượt trội cho công việc chuyên nghiệp.",
+    "skinTones": {
+      "fair": "Màu da sáng",
+      "light": "Màu da nhạt", 
+      "medium": "Màu da trung bình",
+      "olive": "Màu da olive",
+      "brown": "Màu da nâu",
+      "dark": "Màu da tối"
+    },
+    "skinToneNote": "Chọn màu da sẽ xuất hiện trong thiết kế móng tay của bạn",
+    "generate": "Tạo nghệ thuật móng tay",
+    "generating": "Đang tạo...",
+    "save": "Lưu",
+    "share": "Chia sẻ",
+    "download": "Tải xuống tất cả"
+  },
+  "footer": {
+    "description": "Trình tạo nghệ thuật móng tay AI để tạo ra những thiết kế móng tay đẹp.",
+    "links": "Liên kết nhanh",
+    "resources": "Tài nguyên", 
+    "support": "Hỗ trợ",
+    "legal": "Pháp lý",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "contact": "Liên hệ với chúng tôi",
+    "about": "Về chúng tôi"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "retry": "Thử lại",
+    "close": "Đóng",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "view": "Xem",
+    "share": "Chia sẻ",
+    "download": "Tải xuống",
+    "copy": "Sao chép", 
+    "copied": "Đã sao chép!",
+    "yes": "Có",
+    "no": "Không"
+  },
+  "pricing": {
+    "title": "Chọn Gói Thành Viên Của Bạn",
+    "titleWithCredits": "Thêm Credit",
+    "description": "Mua credit AI để tạo những thiết kế nghệ thuật móng tay đẹp. Mỗi credit có thể tạo một hình ảnh chất lượng trung bình hoặc 1/5 hình ảnh chất lượng cao.",
+    "descriptionWithSubscription": "Bạn có gói đăng ký {subscriptionName} hoạt động. Mua thêm credit ở dưới.",
+    "monthly": "Hàng tháng",
+    "yearly": "Hàng năm",
+    "oneTime": "một lần",
+    "mostPopular": "Phổ biến nhất",
+    "getStarted": "Bắt đầu",
+    "startFree": "Bắt đầu Miễn phí",
+    "choosePlan": "Chọn Gói",
+    "buyNow": "Mua Ngay",
+    "currentPlan": "Gói Hiện tại",
+    "upgrade": "Nâng cấp",
+    "features": "Tính năng",
+    "credits": "Credit",
+    "support": "Hỗ trợ",
+    "priority": "Ưu tiên",
+    "aiCredits": "Credit AI",
+    "mediumQualityDesigns": "thiết kế chất lượng trung bình",
+    "highQualityDesigns": "thiết kế chất lượng cao",
+    "noExpiration": "Không hết hạn",
+    "addedToSubscription": "Đã thêm vào gói đăng ký của bạn",
+    "plans": {
+      "free": {
+        "name": "Miễn phí",
+        "description": "Hoàn hảo để thử tạo nghệ thuật móng tay",
+        "features": {
+          "designs": "3 thiết kế móng tay miễn phí",
+          "quality": "Thiết kế chất lượng tiêu chuẩn",
+          "support": "Hỗ trợ cơ bản",
+          "community": "Truy cập cộng đồng"
+        }
+      },
+      "basic": {
+        "name": "Cơ bản",
+        "description": "Hoàn hảo cho nghệ sĩ làm móng và chuyên gia làm đẹp",
+        "features": {
+          "designs": "60 thiết kế móng tay",
+          "quality": "Thiết kế chất lượng trung bình",
+          "processing": "Xử lý ưu tiên",
+          "history": "Lịch sử cơ bản",
+          "support": "Hỗ trợ ưu tiên"
+        }
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Hoàn hảo cho nhà sáng tạo nội dung và doanh nghiệp làm đẹp",
+        "features": {
+          "designs": "120 thiết kế móng tay",
+          "basicFeatures": "Tất cả tính năng Cơ bản",
+          "quality": "Thiết kế chất lượng cao",
+          "bulk": "Tạo hàng loạt",
+          "settings": "Cài đặt nâng cao",
+          "support": "Hỗ trợ chuyên dụng"
+        }
+      },
+      "max": {
+        "name": "Max",
+        "description": "Hoàn hảo cho studio chuyên nghiệp và công ty lớn",
+        "features": {
+          "designs": "300 thiết kế móng tay",
+          "proFeatures": "Tất cả tính năng Pro",
+          "api": "Truy cập API",
+          "models": "Mô hình tùy chỉnh",
+          "support": "Hỗ trợ doanh nghiệp",
+          "whiteLabel": "Tùy chọn nhãn trắng"
+        }
+      }
+    },
+    "creditPackages": {
+      "mini": {
+        "name": "Gói Mini",
+        "description": "Hoàn hảo cho dự án nhỏ"
+      },
+      "standard": {
+        "name": "Gói Tiêu chuẩn",
+        "description": "Giá trị tốt cho sử dụng thường xuyên"
+      },
+      "pro": {
+        "name": "Gói Pro",
+        "description": "Lý tưởng cho nghệ sĩ làm móng chuyên nghiệp"
+      },
+      "bulk": {
+        "name": "Gói Sỉ",
+        "description": "Giá trị tốt nhất cho nhu cầu khối lượng cao"
+      }
+    },
+    "howCreditsWork": {
+      "title": "Cách Hoạt Động Của Credit",
+      "consumption": {
+        "title": "Tiêu Thụ Credit",
+        "mediumQuality": "Chất Lượng Trung Bình",
+        "highQuality": "Chất Lượng Cao",
+        "creditSingular": "Credit",
+        "creditsPlural": "Credit"
+      },
+      "whatCanGenerate": {
+        "title": "Bạn Có Thể Tạo Gì",
+        "freePlan": "Gói Miễn phí (3 credit)",
+        "basicPlan": "Gói Cơ bản (60 credit)",
+        "proPlan": "Gói Pro (120 credit)",
+        "maxPlan": "Gói Max (300 credit)",
+        "mediumDesigns": "thiết kế chất lượng trung bình, hoặc",
+        "highDesigns": "thiết kế chất lượng cao"
+      }
+    },
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "howToStart": {
+        "question": "Làm thế nào để bắt đầu?",
+        "answer": "Đăng ký tài khoản miễn phí và nhận 3 credit AI miễn phí. Không cần thẻ tín dụng, bắt đầu trải nghiệm tạo nghệ thuật móng tay AI ngay lập tức."
+      },
+      "qualityDifference": {
+        "question": "Sự khác biệt giữa các cấp độ chất lượng là gì?",
+        "answer": "Chất lượng trung bình (1 credit) cung cấp kết quả tốt cho hầu hết các trường hợp sử dụng. Chất lượng cao (5 credit) cung cấp chi tiết và độ phân giải vượt trội cho công việc chuyên nghiệp."
+      },
+      "commercialUse": {
+        "question": "Tôi có thể sử dụng thiết kế cho mục đích thương mại không?",
+        "answer": "Tất cả thiết kế nghệ thuật móng tay được tạo thuộc về người dùng và có thể được sử dụng tự do cho mục đích thương mại mà không cần giấy phép bổ sung."
+      },
+      "upgradePlan": {
+        "question": "Làm thế nào để nâng cấp gói của tôi?",
+        "answer": "Bạn có thể nâng cấp hoặc hạ cấp gói bất cứ lúc nào trong cài đặt tài khoản, với phí được tính theo tỷ lệ."
+      }
+    }
+  },
+  "auth": {
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất", 
+    "signup": "Đăng ký",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "forgotPassword": "Quên mật khẩu?",
+    "loginWith": "Đăng nhập bằng",
+    "signupWith": "Đăng ký bằng",
+    "alreadyHaveAccount": "Đã có tài khoản?",
+    "dontHaveAccount": "Chưa có tài khoản?"
+  },
+  "seo": {
+    "title": "AI Nails: Tạo thiết kế móng tay tuyệt đẹp với AI",
+    "introduction": "Chào mừng đến với AI Nails, điểm đến hàng đầu của bạn cho cảm hứng nghệ thuật móng tay được hỗ trợ bởi AI. Dù bạn là nghệ sĩ làm móng, chủ salon hay đơn giản là khám phá phong cách sáng tạo, công cụ thiết kế móng tay AI của chúng tôi giúp bạn tạo ra những kiểu móng tay hợp thời trang và cá nhân hóa trong vài giây.",
+    "whatIsTitle": "AI Nails là gì?",
+    "whatIsDescription": "AI Nails là một trình tạo nghệ thuật móng tay thông minh sử dụng trí tuệ nhân tạo tiên tiến để tạo ra những thiết kế móng tay đẹp và chân thực dựa trên sở thích của bạn. Từ móng tối giản đến kiểu chrome táo bạo, AI của chúng tôi bao gồm mọi phong cách, màu sắc và họa tiết có thể tưởng tượng.",
+    "whyUseTitle": "Tại sao sử dụng AI cho thiết kế móng tay?",
+    "benefits": {
+      "instant": "Nhận ý tưởng móng tay được tạo bởi AI ngay lập tức, phù hợp với phong cách của bạn",
+      "discover": "Khám phá hàng nghìn thiết kế móng tay AI độc đáo",
+      "save": "Tiết kiệm thời gian và tiền bạc—không còn cuộn Pinterest vô tận nữa",
+      "perfect": "Hoàn hảo cho salon, nội dung truyền thông xã hội hoặc thử nghiệm kiểu mới tại nhà"
+    },
+    "featuredTitle": "Thiết kế nghệ thuật móng tay nổi bật",
+    "featuredDescription": "Khám phá bộ sưu tập các thiết kế nghệ thuật móng tay tuyệt đẹp của chúng tôi, thể hiện tính đa dạng và sáng tạo của trình tạo nghệ thuật móng tay AI. Mỗi thiết kế đại diện cho các phong cách và kỹ thuật khác nhau trong nghệ thuật móng tay hiện đại, cung cấp cảm hứng cho lần làm móng tiếp theo của bạn.",
+    "mainTitle": "Trình tạo nghệ thuật móng tay AI: Cách mạng hóa việc tạo thiết kế móng tay",
+    "mainDescription": "Trình tạo nghệ thuật móng tay AI của chúng tôi đại diện cho công nghệ thiết kế móng tay tiên tiến nhất, kết hợp trí tuệ nhân tạo với các kỹ thuật nghệ thuật móng tay sáng tạo để mang lại những thiết kế móng tay tuyệt đẹp và cá nhân hóa. Dù bạn là nghệ sĩ làm móng chuyên nghiệp tìm kiếm cảm hứng hay người yêu thích làm đẹp khám phá xu hướng nghệ thuật móng tay, nền tảng của chúng tôi cung cấp các công cụ bạn cần để tạo ra những thiết kế móng tay đặc biệt.",
+    "mainContent": {
+      "paragraph1": "Trình tạo nghệ thuật móng tay sử dụng các thuật toán học máy tiên tiến để hiểu sở thích phong cách của bạn và tạo ra những thiết kế móng tay độc đáo phù hợp với cá tính của bạn. Từ những kiểu móng Pháp cổ điển đến các họa tiết hình học táo bạo, công nghệ thiết kế móng tay AI của chúng tôi có thể tạo ra hàng nghìn biến thể, đảm bảo bạn không bao giờ hết ý tưởng nghệ thuật móng tay.",
+      "paragraph2": "Các nghệ sĩ làm móng chuyên nghiệp ngày càng chuyển sang sử dụng công cụ nghệ thuật móng tay AI để đơn giản hóa quy trình làm việc và cung cấp cho khách hàng nhiều tùy chọn thiết kế hơn. Trình tạo thiết kế móng tay của chúng tôi giúp các nghệ sĩ tạo ra nghệ thuật móng tay tùy chỉnh một cách nhanh chóng, cho phép họ tập trung vào việc hoàn thiện kỹ thuật và cung cấp dịch vụ đặc biệt."
+    },
+    "features": {
+      "advanced": "Nghệ thuật móng tay AI tiên tiến",
+      "advancedDesc": "Trình tạo nghệ thuật móng tay AI tinh vi của chúng tôi sử dụng deep learning để tạo ra những thiết kế móng tay chất lượng chuyên nghiệp. Hệ thống phân tích các xu hướng nghệ thuật móng tay hiện tại và tạo ra những ý tưởng thiết kế móng tay sáng tạo vừa thời trang vừa độc đáo.",
+      "custom": "Tạo thiết kế móng tay tùy chỉnh",
+      "customDesc": "Tạo ra những thiết kế nghệ thuật móng tay được cá nhân hóa phù hợp với sở thích phong cách của bạn. Trình tạo thiết kế móng tay của chúng tôi xem xét bảng màu, họa tiết và dịp để tạo ra nghệ thuật móng tay hoàn hảo cho bất kỳ sự kiện hoặc tâm trạng nào.",
+      "professional": "Công cụ nghệ thuật móng tay chuyên nghiệp",
+      "professionalDesc": "Truy cập các công cụ nghệ thuật móng tay chất lượng chuyên nghiệp và phần mềm thiết kế móng tay sánh ngang với tiêu chuẩn ngành. Nền tảng của chúng tôi cung cấp cho các nghệ sĩ làm móng công nghệ họ cần để tạo ra những thiết kế móng tay tuyệt đẹp một cách hiệu quả.",
+      "inspiration": "Thư viện cảm hứng nghệ thuật móng tay",
+      "inspirationDesc": "Duyệt qua hàng nghìn thiết kế nghệ thuật móng tay và ý tưởng thiết kế móng tay được tạo bởi AI của chúng tôi. Tìm cảm hứng cho dự án nghệ thuật móng tay tiếp theo của bạn hoặc khám phá xu hướng nghệ thuật móng tay mới để thử.",
+      "education": "Tài nguyên giáo dục nghệ thuật móng tay",
+      "educationDesc": "Học các kỹ thuật nghệ thuật móng tay nâng cao và nguyên tắc thiết kế móng tay thông qua các hướng dẫn toàn diện của chúng tôi. Thành thạo nghệ thuật tạo ra những thiết kế móng tay đẹp với sự hướng dẫn của chuyên gia và hỗ trợ AI.",
+      "business": "Giải pháp kinh doanh nghệ thuật móng tay",
+      "businessDesc": "Phát triển doanh nghiệp nghệ thuật móng tay của bạn với các công cụ và tài nguyên chuyên nghiệp của chúng tôi. Nền tảng của chúng tôi giúp các nghệ sĩ làm móng đơn giản hóa quy trình làm việc và cung cấp cho khách hàng các dịch vụ thiết kế móng tay sáng tạo."
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp về tạo nghệ thuật móng tay AI",
+      "questions": {
+        "howWorks": {
+          "question": "Trình tạo nghệ thuật móng tay AI hoạt động như thế nào?",
+          "answer": "Trình tạo nghệ thuật móng tay AI của chúng tôi sử dụng các thuật toán học máy tiên tiến để phân tích hàng nghìn thiết kế móng tay và tạo ra nghệ thuật móng tay độc đáo dựa trên sở thích của bạn. Hệ thống xem xét lý thuyết màu sắc, xu hướng nghệ thuật móng tay hiện tại và nguyên tắc thiết kế để tạo ra những thiết kế móng tay chất lượng chuyên nghiệp."
+        },
+        "customize": {
+          "question": "Tôi có thể tùy chỉnh các thiết kế móng tay được tạo không?",
+          "answer": "Tuyệt đối! Trình tạo thiết kế móng tay của chúng tôi cho phép bạn tùy chỉnh màu sắc, họa tiết và phong cách để tạo ra nghệ thuật móng tay được cá nhân hóa. Bạn có thể sửa đổi bất kỳ khía cạnh nào của các thiết kế nghệ thuật móng tay được tạo để phù hợp với sở thích chính xác của bạn."
+        },
+        "professional": {
+          "question": "Nghệ thuật móng tay AI có phù hợp cho sử dụng chuyên nghiệp không?",
+          "answer": "Có! Các nghệ sĩ làm móng chuyên nghiệp sử dụng công cụ nghệ thuật móng tay AI của chúng tôi để tạo ra những thiết kế tùy chỉnh cho khách hàng. Các thiết kế móng tay được tạo đáp ứng tiêu chuẩn ngành và có thể được điều chỉnh cho các kỹ thuật và ứng dụng nghệ thuật móng tay khác nhau."
+        },
+        "trends": {
+          "question": "Xu hướng nghệ thuật móng tay mới được thêm vào bao lâu một lần?",
+          "answer": "Trình tạo nghệ thuật móng tay của chúng tôi được cập nhật liên tục với các xu hướng nghệ thuật móng tay mới nhất và ý tưởng thiết kế móng tay. Chúng tôi giám sát xu hướng thời trang và phát triển ngành làm đẹp để đảm bảo AI của chúng tôi tạo ra những thiết kế móng tay phù hợp và thời trang."
+        }
+      }
+    },
+    "cta": {
+      "title": "Tại sao chọn trình tạo nghệ thuật móng tay AI của chúng tôi?",
+      "forArtists": "Dành cho nghệ sĩ làm móng",
+      "forEnthusiasts": "Dành cho người yêu thích làm đẹp",
+      "artistBenefits": {
+        "designs": "Truy cập hàng nghìn thiết kế nghệ thuật móng tay",
+        "tools": "Công cụ và tài nguyên nghệ thuật móng tay chuyên nghiệp",
+        "workflow": "Quy trình thiết kế móng tay được đơn giản hóa",
+        "trends": "Xu hướng và kỹ thuật nghệ thuật móng tay mới nhất",
+        "business": "Cơ hội phát triển kinh doanh"
+      },
+      "enthusiastBenefits": {
+        "personalized": "Ý tưởng nghệ thuật móng tay được cá nhân hóa",
+        "easy": "Trình tạo thiết kế móng tay dễ sử dụng",
+        "trendy": "Thiết kế nghệ thuật móng tay thời trang",
+        "educational": "Tài nguyên giáo dục nghệ thuật móng tay",
+        "affordable": "Giải pháp nghệ thuật móng tay giá cả phải chăng"
+      },
+      "finalTitle": "Bắt đầu tạo nghệ thuật móng tay đẹp ngay hôm nay",
+      "finalDescription": "Tham gia cùng hàng nghìn nghệ sĩ làm móng và người yêu thích làm đẹp đã sử dụng trình tạo nghệ thuật móng tay AI của chúng tôi để tạo ra những thiết kế móng tay tuyệt đẹp. Trải nghiệm tương lai của việc tạo nghệ thuật móng tay với công nghệ thiết kế móng tay tiên tiến giúp nghệ thuật móng tay đẹp trở nên dễ tiếp cận với mọi người."
+    }
+  }
+}

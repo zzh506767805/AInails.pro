@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Home",
+    "pricing": "Pricing", 
+    "history": "History",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "hero": {
+    "badge": "AI-Powered Nail Art Generator",
+    "title": "Create Beautiful Nail Art",
+    "subtitle": "with AI Magic",
+    "description": "Transform your nail art ideas into stunning designs using cutting-edge AI technology. Perfect for nail artists, beauty professionals, and nail art enthusiasts."
+  },
+  "generator": {
+    "title": "AI Nail Art Generator", 
+    "description": "Describe your dream nail design and our AI will create it for you",
+    "placeholder": "e.g., Elegant French manicure with pink gradient and floral patterns, perfect for a spring wedding...",
+    "labels": {
+      "describe": "Describe your nail design",
+      "style": "Style",
+      "colorPalette": "Color Palette", 
+      "quality": "Quality",
+      "skinTone": "Skin Tone"
+    },
+    "styles": {
+      "elegant": "Elegant",
+      "bold": "Bold & Dramatic",
+      "minimalist": "Minimalist", 
+      "vintage": "Vintage",
+      "modern": "Modern"
+    },
+    "colors": {
+      "pink": "Pink & Rose",
+      "blue": "Blue & Purple",
+      "neutral": "Neutral",
+      "bright": "Bright & Vibrant", 
+      "dark": "Dark & Mysterious"
+    },
+    "qualities": {
+      "medium": "Medium Quality (1 Credit)",
+      "high": "High Quality (5 Credits)"
+    },
+    "qualityNote": "Medium quality is perfect for most uses. High quality offers superior detail for professional work.",
+    "skinTones": {
+      "fair": "Fair skin tone",
+      "light": "Light skin tone", 
+      "medium": "Medium skin tone",
+      "olive": "Olive skin tone",
+      "brown": "Brown skin tone",
+      "dark": "Dark skin tone"
+    },
+    "skinToneNote": "Select the skin tone that will appear in your nail design",
+    "generate": "Generate Nail Art",
+    "generating": "Generating...",
+    "save": "Save",
+    "share": "Share",
+    "download": "Download All"
+  },
+  "footer": {
+    "description": "AI-powered nail art generator for creating beautiful nail designs.",
+    "links": "Quick Links",
+    "resources": "Resources", 
+    "support": "Support",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us",
+    "about": "About Us"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "share": "Share",
+    "download": "Download",
+    "copy": "Copy", 
+    "copied": "Copied!",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "pricing": {
+    "title": "Choose Your Credit Plan",
+    "titleWithCredits": "Add More Credits",
+    "description": "Purchase AI credits to generate beautiful nail art designs. Each credit can generate one medium quality image or 1/5 of a high quality image.",
+    "descriptionWithSubscription": "You have an active {subscriptionName} subscription. Purchase additional credits below.",
+    "monthly": "Monthly",
+    "yearly": "Yearly", 
+    "oneTime": "one-time",
+    "mostPopular": "Most Popular",
+    "getStarted": "Get Started",
+    "startFree": "Start Free",
+    "choosePlan": "Choose Plan",
+    "buyNow": "Buy Now",
+    "currentPlan": "Current Plan",
+    "upgrade": "Upgrade",
+    "features": "Features",
+    "credits": "Credits",
+    "support": "Support",
+    "priority": "Priority",
+    "aiCredits": "AI Credits",
+    "mediumQualityDesigns": "medium quality designs",
+    "highQualityDesigns": "high quality designs",
+    "noExpiration": "No expiration",
+    "addedToSubscription": "Added to your subscription",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "description": "Perfect for trying out nail art generation",
+        "features": {
+          "designs": "3 free nail designs",
+          "quality": "Standard quality designs",
+          "support": "Basic support",
+          "community": "Community access"
+        }
+      },
+      "basic": {
+        "name": "Basic",
+        "description": "Perfect for nail artists and beauty professionals",
+        "features": {
+          "designs": "60 nail designs",
+          "quality": "Medium quality designs",
+          "processing": "Priority processing",
+          "history": "Basic history",
+          "support": "Priority support"
+        }
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Perfect for content creators and beauty businesses",
+        "features": {
+          "designs": "120 nail designs",
+          "basicFeatures": "All Basic features",
+          "quality": "High quality designs",
+          "bulk": "Bulk generation",
+          "settings": "Advanced settings",
+          "support": "Dedicated support"
+        }
+      },
+      "max": {
+        "name": "Max",
+        "description": "Perfect for professional studios and large businesses",
+        "features": {
+          "designs": "300 nail designs",
+          "proFeatures": "All Pro features",
+          "api": "API access",
+          "models": "Custom models",
+          "support": "Enterprise support",
+          "whiteLabel": "White-label options"
+        }
+      }
+    },
+    "creditPackages": {
+      "mini": {
+        "name": "Mini Pack",
+        "description": "Perfect for small projects"
+      },
+      "standard": {
+        "name": "Standard Pack",
+        "description": "Great value for regular usage"
+      },
+      "pro": {
+        "name": "Pro Pack",
+        "description": "Ideal for professional nail artists"
+      },
+      "bulk": {
+        "name": "Bulk Pack",
+        "description": "Best value for high volume needs"
+      }
+    },
+    "howCreditsWork": {
+      "title": "How Credits Work",
+      "consumption": {
+        "title": "Credit Consumption",
+        "mediumQuality": "Medium Quality",
+        "highQuality": "High Quality",
+        "creditSingular": "Credit",
+        "creditsPlural": "Credits"
+      },
+      "whatCanGenerate": {
+        "title": "What You Can Generate",
+        "freePlan": "Free Plan (3 credits)",
+        "basicPlan": "Basic Plan (60 credits)",
+        "proPlan": "Pro Plan (120 credits)",
+        "maxPlan": "Max Plan (300 credits)",
+        "mediumDesigns": "medium quality designs, or",
+        "highDesigns": "high quality designs"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "howToStart": {
+        "question": "How do I get started?",
+        "answer": "Sign up for a free account to get 3 free AI credits. No credit card required, start experiencing AI nail art generation immediately."
+      },
+      "qualityDifference": {
+        "question": "What's the difference between quality levels?",
+        "answer": "Medium quality (1 credit) provides good results for most use cases. High quality (5 credits) offers superior detail and resolution for professional work."
+      },
+      "commercialUse": {
+        "question": "Can I use designs commercially?",
+        "answer": "All generated nail art designs belong to the user and can be freely used for commercial purposes without additional licensing."
+      },
+      "upgradePlan": {
+        "question": "How do I upgrade my plan?",
+        "answer": "You can upgrade or downgrade your plan at any time in your account settings, with fees calculated proportionally."
+      }
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout", 
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "loginWith": "Login with",
+    "signupWith": "Sign up with",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?"
+  },
+  "seo": {
+    "title": "AI Nails: Generate Stunning Nail Designs with AI",
+    "introduction": "Welcome to AI Nails, your ultimate destination for AI-powered nail art inspiration. Whether you're a nail artist, salon owner, or just exploring creative styles, our AI nail design tool helps you create trendy, personalized nail looks in seconds.",
+    "whatIsTitle": "What Is AI Nails?",
+    "whatIsDescription": "AI Nails is an intelligent nail art generator that uses advanced artificial intelligence to generate beautiful and realistic nail designs based on your preferences. From minimalistic nails to bold chrome looks, our AI covers every style, color, and pattern imaginable.",
+    "whyUseTitle": "Why Use AI for Nail Design?",
+    "benefits": {
+      "instant": "Get instant AI-generated nail ideas tailored to your style",
+      "discover": "Discover thousands of unique AI nail designs",
+      "save": "Save time and money—no more endless Pinterest scrolling",
+      "perfect": "Perfect for salons, social media content, or trying new looks at home"
+    },
+    "featuredTitle": "Featured Nail Art Designs",
+    "featuredDescription": "Explore our collection of stunning nail art designs, showcasing the versatility and creativity of our AI nail art generator. Each design represents different styles and techniques in modern nail artistry, providing inspiration for your next manicure.",
+    "mainTitle": "AI Nail Art Generator: Revolutionizing Nail Design Creation",
+    "mainDescription": "Our AI nail art generator represents the cutting edge of nail design technology, combining artificial intelligence with creative nail art techniques to deliver stunning, personalized nail designs. Whether you're a professional nail artist seeking inspiration or a beauty enthusiast exploring nail art trends, our platform provides the tools you need to create exceptional nail designs.",
+    "mainContent": {
+      "paragraph1": "The nail art generator utilizes advanced machine learning algorithms to understand your style preferences and create unique nail designs that match your personality. From classic French manicures to bold geometric patterns, our AI nail design technology can generate thousands of variations, ensuring you never run out of nail art ideas.",
+      "paragraph2": "Professional nail artists are increasingly turning to AI nail art tools to streamline their workflow and offer clients more design options. Our nail design generator helps artists create custom nail art quickly, allowing them to focus on perfecting their technique and providing exceptional service."
+    },
+    "features": {
+      "advanced": "Advanced Nail Art AI",
+      "advancedDesc": "Our sophisticated AI nail art generator uses deep learning to create professional-quality nail designs. The system analyzes current nail art trends and generates innovative nail design ideas that are both fashionable and unique.",
+      "custom": "Custom Nail Design Creation",
+      "customDesc": "Create personalized nail art designs tailored to your style preferences. Our nail design generator considers color schemes, patterns, and occasions to produce perfect nail art for any event or mood.",
+      "professional": "Professional Nail Art Tools",
+      "professionalDesc": "Access professional-grade nail art tools and nail design software that rival industry standards. Our platform provides nail artists with the technology they need to create stunning nail designs efficiently.",
+      "inspiration": "Nail Art Inspiration Gallery",
+      "inspirationDesc": "Browse thousands of nail art designs and nail design ideas created by our AI. Find inspiration for your next nail art project or discover new nail art trends to try.",
+      "education": "Nail Art Education Resources", 
+      "educationDesc": "Learn advanced nail art techniques and nail design principles through our comprehensive tutorials. Master the art of creating beautiful nail designs with expert guidance and AI assistance.",
+      "business": "Nail Art Business Solutions",
+      "businessDesc": "Grow your nail art business with our professional tools and resources. Our platform helps nail artists streamline their workflow and offer clients innovative nail design services."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About AI Nail Art Generation",
+      "questions": {
+        "howWorks": {
+          "question": "How does the AI nail art generator work?",
+          "answer": "Our AI nail art generator uses advanced machine learning algorithms to analyze thousands of nail designs and create unique nail art based on your preferences. The system considers color theory, current nail art trends, and design principles to generate professional-quality nail designs."
+        },
+        "customize": {
+          "question": "Can I customize the generated nail designs?",
+          "answer": "Absolutely! Our nail design generator allows you to customize colors, patterns, and styles to create personalized nail art. You can modify any aspect of the generated nail art designs to match your exact preferences."
+        },
+        "professional": {
+          "question": "Is the AI nail art suitable for professional use?",
+          "answer": "Yes! Professional nail artists use our AI nail art tools to create custom designs for clients. The generated nail designs meet industry standards and can be adapted for various nail art techniques and applications."
+        },
+        "trends": {
+          "question": "How often are new nail art trends added?",
+          "answer": "Our nail art generator is continuously updated with the latest nail art trends and nail design ideas. We monitor fashion trends and beauty industry developments to ensure our AI creates relevant and fashionable nail designs."
+        }
+      }
+    },
+    "cta": {
+      "title": "Why Choose Our AI Nail Art Generator?",
+      "forArtists": "For Nail Artists",
+      "forEnthusiasts": "For Beauty Enthusiasts",
+      "artistBenefits": {
+        "designs": "Access to thousands of nail art designs",
+        "tools": "Professional nail art tools and resources",
+        "workflow": "Streamlined nail design workflow",
+        "trends": "Latest nail art trends and techniques",
+        "business": "Business growth opportunities"
+      },
+      "enthusiastBenefits": {
+        "personalized": "Personalized nail art ideas",
+        "easy": "Easy-to-use nail design generator",
+        "trendy": "Trendy nail art designs",
+        "educational": "Educational nail art resources",
+        "affordable": "Affordable nail art solutions"
+      },
+      "finalTitle": "Start Creating Beautiful Nail Art Today",
+      "finalDescription": "Join thousands of nail artists and beauty enthusiasts who are already using our AI nail art generator to create stunning nail designs. Experience the future of nail art creation with cutting-edge nail design technology that makes beautiful nail art accessible to everyone."
+    }
+  }
+}

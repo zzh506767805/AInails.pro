@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "pricing": "Preise", 
+    "history": "Verlauf",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "logout": "Abmelden"
+  },
+  "hero": {
+    "badge": "KI-betriebener Nagelkunst-Generator",
+    "title": "Erstelle Wunderschöne Nagelkunst",
+    "subtitle": "mit KI-Magie",
+    "description": "Verwandle deine Nagelkunst-Ideen mit modernster KI-Technologie in atemberaubende Designs. Perfekt für Nagelkünstler, Schönheitsexperten und Nagelkunst-Enthusiasten."
+  },
+  "generator": {
+    "title": "KI-Nagelkunst-Generator", 
+    "description": "Beschreibe dein Traum-Nageldesign und unsere KI wird es für dich erstellen",
+    "placeholder": "z.B., Elegante französische Maniküre mit rosa Farbverlauf und floralen Mustern, perfekt für eine Frühlingshochzeit...",
+    "labels": {
+      "describe": "Beschreibe dein Nageldesign",
+      "style": "Stil",
+      "colorPalette": "Farbpalette", 
+      "quality": "Qualität",
+      "skinTone": "Hautton"
+    },
+    "styles": {
+      "elegant": "Elegant",
+      "bold": "Mutig & Dramatisch",
+      "minimalist": "Minimalistisch", 
+      "vintage": "Vintage",
+      "modern": "Modern"
+    },
+    "colors": {
+      "pink": "Rosa & Rosé",
+      "blue": "Blau & Lila",
+      "neutral": "Neutral",
+      "bright": "Hell & Lebhaft", 
+      "dark": "Dunkel & Mysteriös"
+    },
+    "qualities": {
+      "medium": "Mittlere Qualität (1 Credit)",
+      "high": "Hohe Qualität (5 Credits)"
+    },
+    "qualityNote": "Mittlere Qualität ist perfekt für die meisten Verwendungen. Hohe Qualität bietet überlegene Details für professionelle Arbeit.",
+    "skinTones": {
+      "fair": "Heller Hautton",
+      "light": "Leichter Hautton", 
+      "medium": "Mittlerer Hautton",
+      "olive": "Olivfarbener Hautton",
+      "brown": "Brauner Hautton",
+      "dark": "Dunkler Hautton"
+    },
+    "skinToneNote": "Wähle den Hautton, der in deinem Nageldesign erscheinen soll",
+    "generate": "Nagelkunst Generieren",
+    "generating": "Generiere...",
+    "save": "Speichern",
+    "share": "Teilen",
+    "download": "Alle Herunterladen"
+  },
+  "footer": {
+    "description": "KI-betriebener Nagelkunst-Generator für schöne Nageldesigns.",
+    "links": "Schnelle Links",
+    "resources": "Ressourcen", 
+    "support": "Support",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontaktiere uns",
+    "about": "Über uns"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Etwas ist schief gelaufen",
+    "retry": "Nochmal versuchen",
+    "close": "Schließen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "view": "Anzeigen",
+    "share": "Teilen",
+    "download": "Herunterladen",
+    "copy": "Kopieren", 
+    "copied": "Kopiert!",
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "pricing": {
+    "title": "Wähle Deinen Credit-Plan",
+    "titleWithCredits": "Mehr Credits Hinzufügen",
+    "description": "Kaufe KI-Credits um wunderschöne Nagelkunst-Designs zu generieren. Jeder Credit kann ein Bild mittlerer Qualität oder 1/5 eines hochwertigen Bildes generieren.",
+    "descriptionWithSubscription": "Du hast ein aktives {subscriptionName} Abonnement. Kaufe zusätzliche Credits unten.",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "oneTime": "einmalig",
+    "mostPopular": "Beliebteste",
+    "getStarted": "Loslegen",
+    "startFree": "Kostenlos Starten",
+    "choosePlan": "Plan Wählen",
+    "buyNow": "Jetzt Kaufen",
+    "currentPlan": "Aktueller Plan",
+    "upgrade": "Upgrade",
+    "features": "Features",
+    "credits": "Credits",
+    "support": "Support",
+    "priority": "Priorität",
+    "aiCredits": "KI-Credits",
+    "mediumQualityDesigns": "mittlere Qualität Designs",
+    "highQualityDesigns": "hohe Qualität Designs",
+    "noExpiration": "Keine Ablaufzeit",
+    "addedToSubscription": "Zu deinem Abonnement hinzugefügt",
+    "plans": {
+      "free": {
+        "name": "Kostenlos",
+        "description": "Perfekt um Nagelkunst-Generierung auszuprobieren",
+        "features": {
+          "designs": "3 kostenlose Nageldesigns",
+          "quality": "Standard-Qualität Designs",
+          "support": "Basis Support",
+          "community": "Community Zugang"
+        }
+      },
+      "basic": {
+        "name": "Basic",
+        "description": "Perfekt für Nagelkünstler und Beauty-Profis",
+        "features": {
+          "designs": "60 Nageldesigns",
+          "quality": "Mittlere Qualität Designs",
+          "processing": "Prioritätsverarbeitung",
+          "history": "Basis Verlauf",
+          "support": "Prioritäts Support"
+        }
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Perfekt für Content Creator und Beauty Businesses",
+        "features": {
+          "designs": "120 Nageldesigns",
+          "basicFeatures": "Alle Basic Features",
+          "quality": "Hohe Qualität Designs",
+          "bulk": "Bulk Generation",
+          "settings": "Erweiterte Einstellungen",
+          "support": "Dedizierter Support"
+        }
+      },
+      "max": {
+        "name": "Max",
+        "description": "Perfekt für professionelle Studios und große Unternehmen",
+        "features": {
+          "designs": "300 Nageldesigns",
+          "proFeatures": "Alle Pro Features",
+          "api": "API Zugang",
+          "models": "Benutzerdefinierte Modelle",
+          "support": "Enterprise Support",
+          "whiteLabel": "White-Label Optionen"
+        }
+      }
+    },
+    "creditPackages": {
+      "mini": {
+        "name": "Mini Paket",
+        "description": "Perfekt für kleine Projekte"
+      },
+      "standard": {
+        "name": "Standard Paket",
+        "description": "Großartiger Wert für regelmäßige Nutzung"
+      },
+      "pro": {
+        "name": "Pro Paket",
+        "description": "Ideal für professionelle Nagelkünstler"
+      },
+      "bulk": {
+        "name": "Bulk Paket",
+        "description": "Bester Wert für hohe Volumenbedürfnisse"
+      }
+    },
+    "howCreditsWork": {
+      "title": "Wie Credits Funktionieren",
+      "consumption": {
+        "title": "Credit-Verbrauch",
+        "mediumQuality": "Mittlere Qualität",
+        "highQuality": "Hohe Qualität",
+        "creditSingular": "Credit",
+        "creditsPlural": "Credits"
+      },
+      "whatCanGenerate": {
+        "title": "Was Du Generieren Kannst",
+        "freePlan": "Kostenloser Plan (3 Credits)",
+        "basicPlan": "Basic Plan (60 Credits)",
+        "proPlan": "Pro Plan (120 Credits)",
+        "maxPlan": "Max Plan (300 Credits)",
+        "mediumDesigns": "mittlere Qualität Designs, oder",
+        "highDesigns": "hohe Qualität Designs"
+      }
+    },
+    "faq": {
+      "title": "Häufig Gestellte Fragen",
+      "howToStart": {
+        "question": "Wie fange ich an?",
+        "answer": "Melde dich für ein kostenloses Konto an und erhalte 3 kostenlose KI-Credits. Keine Kreditkarte erforderlich, beginne sofort mit der KI-Nagelkunst-Generierung."
+      },
+      "qualityDifference": {
+        "question": "Was ist der Unterschied zwischen den Qualitätsstufen?",
+        "answer": "Mittlere Qualität (1 Credit) bietet gute Ergebnisse für die meisten Anwendungsfälle. Hohe Qualität (5 Credits) bietet überlegene Details und Auflösung für professionelle Arbeit."
+      },
+      "commercialUse": {
+        "question": "Kann ich die Designs kommerziell nutzen?",
+        "answer": "Alle generierten Nagelkunst-Designs gehören dem Benutzer und können frei für kommerzielle Zwecke ohne zusätzliche Lizenzierung verwendet werden."
+      },
+      "upgradePlan": {
+        "question": "Wie upgrade ich meinen Plan?",
+        "answer": "Du kannst deinen Plan jederzeit in den Kontoeinstellungen upgraden oder downgraden, mit proportional berechneten Gebühren."
+      }
+    }
+  },
+  "auth": {
+    "login": "Anmelden",
+    "logout": "Abmelden", 
+    "signup": "Registrieren",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "forgotPassword": "Passwort vergessen?",
+    "loginWith": "Anmelden mit",
+    "signupWith": "Registrieren mit",
+    "alreadyHaveAccount": "Bereits ein Konto?",
+    "dontHaveAccount": "Noch kein Konto?"
+  },
+  "seo": {
+    "title": "AI Nails: Erstelle Atemberaubende Nageldesigns mit KI",
+    "introduction": "Willkommen bei AI Nails, deinem ultimativen Ziel für KI-betriebene Nagelkunst-Inspiration. Ob du ein Nagelkünstler, Salonbesitzer bist oder einfach kreative Stile erkundest, unser KI-Nageldesign-Tool hilft dir dabei, trendige, personalisierte Nagel-Looks in Sekunden zu erstellen.",
+    "whatIsTitle": "Was ist AI Nails?",
+    "whatIsDescription": "AI Nails ist ein intelligenter Nagelkunst-Generator, der fortschrittliche künstliche Intelligenz nutzt, um schöne und realistische Nageldesigns basierend auf deinen Vorlieben zu generieren. Von minimalistischen Nägeln bis hin zu mutigen Chrome-Looks deckt unsere KI jeden vorstellbaren Stil, jede Farbe und jedes Muster ab.",
+    "whyUseTitle": "Warum KI für Nageldesign verwenden?",
+    "benefits": {
+      "instant": "Erhalte sofortige KI-generierte Nageldesign-Ideen, die auf deinen Stil zugeschnitten sind",
+      "discover": "Entdecke tausende einzigartige KI-Nageldesigns",
+      "save": "Spare Zeit und Geld—kein endloses Pinterest-Scrollen mehr",
+      "perfect": "Perfekt für Salons, Social-Media-Content oder neue Looks zu Hause ausprobieren"
+    },
+    "featuredTitle": "Ausgewählte Nagelkunst-Designs",
+    "featuredDescription": "Erkunde unsere Sammlung atemberaubender Nagelkunst-Designs, die die Vielseitigkeit und Kreativität unseres KI-Nagelkunst-Generators zeigen. Jedes Design repräsentiert verschiedene Stile und Techniken in der modernen Nagelkunst und bietet Inspiration für deine nächste Maniküre.",
+    "mainTitle": "KI-Nagelkunst-Generator: Revolution der Nageldesign-Erstellung",
+    "mainDescription": "Unser KI-Nagelkunst-Generator repräsentiert die Spitze der Nageldesign-Technologie, kombiniert künstliche Intelligenz mit kreativen Nagelkunst-Techniken, um atemberaubende, personalisierte Nageldesigns zu liefern. Ob du ein professioneller Nagelkünstler auf der Suche nach Inspiration oder ein Beauty-Enthusiast bist, der Nagelkunst-Trends erkundet, unsere Plattform bietet die Tools, die du brauchst, um außergewöhnliche Nageldesigns zu erstellen.",
+    "mainContent": {
+      "paragraph1": "Der Nagelkunst-Generator nutzt fortschrittliche maschinelle Lernalgorithmen, um deine Stilpräferenzen zu verstehen und einzigartige Nageldesigns zu erstellen, die zu deiner Persönlichkeit passen. Von klassischen French Manicures bis hin zu mutigen geometrischen Mustern kann unsere KI-Nageldesign-Technologie tausende von Variationen generieren, wodurch dir nie die Nagelkunst-Ideen ausgehen.",
+      "paragraph2": "Professionelle Nagelkünstler wenden sich zunehmend KI-Nagelkunst-Tools zu, um ihren Workflow zu optimieren und Kunden mehr Designoptionen zu bieten. Unser Nageldesign-Generator hilft Künstlern dabei, schnell individuelle Nagelkunst zu erstellen, sodass sie sich darauf konzentrieren können, ihre Technik zu perfektionieren und außergewöhnlichen Service zu bieten."
+    },
+    "features": {
+      "advanced": "Fortschrittliche Nagelkunst-KI",
+      "advancedDesc": "Unser hochentwickelter KI-Nagelkunst-Generator nutzt Deep Learning, um professionelle Nageldesigns zu erstellen. Das System analysiert aktuelle Nagelkunst-Trends und generiert innovative Nageldesign-Ideen, die sowohl modisch als auch einzigartig sind.",
+      "custom": "Individuelle Nageldesign-Erstellung",
+      "customDesc": "Erstelle personalisierte Nagelkunst-Designs, die auf deine Stilpräferenzen zugeschnitten sind. Unser Nageldesign-Generator berücksichtigt Farbschemata, Muster und Anlässe, um perfekte Nagelkunst für jedes Event oder jede Stimmung zu produzieren.",
+      "professional": "Professionelle Nagelkunst-Tools",
+      "professionalDesc": "Zugriff auf professionelle Nagelkunst-Tools und Nageldesign-Software, die mit Industriestandards konkurrieren. Unsere Plattform bietet Nagelkünstlern die Technologie, die sie brauchen, um effizient atemberaubende Nageldesigns zu erstellen.",
+      "inspiration": "Nagelkunst-Inspirations-Galerie",
+      "inspirationDesc": "Durchstöbere tausende von Nagelkunst-Designs und Nageldesign-Ideen, die von unserer KI erstellt wurden. Finde Inspiration für dein nächstes Nagelkunst-Projekt oder entdecke neue Nagelkunst-Trends zum Ausprobieren.",
+      "education": "Nagelkunst-Bildungsressourcen",
+      "educationDesc": "Lerne fortschrittliche Nagelkunst-Techniken und Nageldesign-Prinzipien durch unsere umfassenden Tutorials. Meistere die Kunst des Erstellens schöner Nageldesigns mit Expertenbeirat und KI-Unterstützung.",
+      "business": "Nagelkunst-Business-Lösungen",
+      "businessDesc": "Wachse dein Nagelkunst-Business mit unseren professionellen Tools und Ressourcen. Unsere Plattform hilft Nagelkünstlern, ihren Workflow zu optimieren und Kunden innovative Nageldesign-Services zu bieten."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen zur KI-Nagelkunst-Generierung",
+      "questions": {
+        "howWorks": {
+          "question": "Wie funktioniert der KI-Nagelkunst-Generator?",
+          "answer": "Unser KI-Nagelkunst-Generator nutzt fortschrittliche maschinelle Lernalgorithmen, um tausende von Nageldesigns zu analysieren und einzigartige Nagelkunst basierend auf deinen Vorlieben zu erstellen. Das System berücksichtigt Farbtheorie, aktuelle Nagelkunst-Trends und Designprinzipien, um professionelle Nageldesigns zu generieren."
+        },
+        "customize": {
+          "question": "Kann ich die generierten Nageldesigns anpassen?",
+          "answer": "Absolut! Unser Nageldesign-Generator ermöglicht es dir, Farben, Muster und Stile anzupassen, um personalisierte Nagelkunst zu erstellen. Du kannst jeden Aspekt der generierten Nagelkunst-Designs modifizieren, um genau deinen Vorstellungen zu entsprechen."
+        },
+        "professional": {
+          "question": "Ist die KI-Nagelkunst für professionellen Gebrauch geeignet?",
+          "answer": "Ja! Professionelle Nagelkünstler nutzen unsere KI-Nagelkunst-Tools, um individuelle Designs für Kunden zu erstellen. Die generierten Nageldesigns erfüllen Industriestandards und können für verschiedene Nagelkunst-Techniken und -Anwendungen angepasst werden."
+        },
+        "trends": {
+          "question": "Wie oft werden neue Nagelkunst-Trends hinzugefügt?",
+          "answer": "Unser Nagelkunst-Generator wird kontinuierlich mit den neuesten Nagelkunst-Trends und Nageldesign-Ideen aktualisiert. Wir überwachen Modetrends und Beauty-Industrie-Entwicklungen, um sicherzustellen, dass unsere KI relevante und modische Nageldesigns erstellt."
+        }
+      }
+    },
+    "cta": {
+      "title": "Warum unseren KI-Nagelkunst-Generator wählen?",
+      "forArtists": "Für Nagelkünstler",
+      "forEnthusiasts": "Für Beauty-Enthusiasten",
+      "artistBenefits": {
+        "designs": "Zugang zu tausenden von Nagelkunst-Designs",
+        "tools": "Professionelle Nagelkunst-Tools und -Ressourcen",
+        "workflow": "Optimierter Nageldesign-Workflow",
+        "trends": "Neueste Nagelkunst-Trends und -Techniken",
+        "business": "Business-Wachstumsmöglichkeiten"
+      },
+      "enthusiastBenefits": {
+        "personalized": "Personalisierte Nagelkunst-Ideen",
+        "easy": "Benutzerfreundlicher Nageldesign-Generator",
+        "trendy": "Trendige Nagelkunst-Designs",
+        "educational": "Bildungsressourcen für Nagelkunst",
+        "affordable": "Erschwingliche Nagelkunst-Lösungen"
+      },
+      "finalTitle": "Beginne heute mit der Erstellung schöner Nagelkunst",
+      "finalDescription": "Schließe dich tausenden von Nagelkünstlern und Beauty-Enthusiasten an, die bereits unseren KI-Nagelkunst-Generator verwenden, um atemberaubende Nageldesigns zu erstellen. Erlebe die Zukunft der Nagelkunst-Erstellung mit hochmoderner Nageldesign-Technologie, die schöne Nagelkunst für alle zugänglich macht."
+    }
+  }
+}

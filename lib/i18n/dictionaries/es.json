@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "pricing": "Precios", 
+    "history": "Historial",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión"
+  },
+  "hero": {
+    "badge": "Generador de Arte de Uñas con IA",
+    "title": "Crea Arte de Uñas Hermoso",
+    "subtitle": "con Magia de IA",
+    "description": "Transforma tus ideas de arte de uñas en diseños impresionantes usando tecnología de IA de vanguardia. Perfecto para artistas de uñas, profesionales de belleza y entusiastas del arte de uñas."
+  },
+  "generator": {
+    "title": "Generador de Arte de Uñas con IA", 
+    "description": "Describe el diseño de uñas de tus sueños y nuestra IA lo creará para ti",
+    "placeholder": "ej., Manicura francesa elegante con degradado rosa y patrones florales, perfecta para una boda de primavera...",
+    "labels": {
+      "describe": "Describe tu diseño de uñas",
+      "style": "Estilo",
+      "colorPalette": "Paleta de colores", 
+      "quality": "Calidad",
+      "skinTone": "Tono de piel"
+    },
+    "styles": {
+      "elegant": "Elegante",
+      "bold": "Audaz y Dramático",
+      "minimalist": "Minimalista", 
+      "vintage": "Vintage",
+      "modern": "Moderno"
+    },
+    "colors": {
+      "pink": "Rosa y Rosado",
+      "blue": "Azul y Púrpura",
+      "neutral": "Neutral",
+      "bright": "Brillante y Vibrante", 
+      "dark": "Oscuro y Misterioso"
+    },
+    "qualities": {
+      "medium": "Calidad Media (1 Crédito)",
+      "high": "Alta Calidad (5 Créditos)"
+    },
+    "qualityNote": "La calidad media es perfecta para la mayoría de usos. La alta calidad ofrece detalles superiores para trabajo profesional.",
+    "skinTones": {
+      "fair": "Tono de piel claro",
+      "light": "Tono de piel ligero", 
+      "medium": "Tono de piel medio",
+      "olive": "Tono de piel oliva",
+      "brown": "Tono de piel moreno",
+      "dark": "Tono de piel oscuro"
+    },
+    "skinToneNote": "Selecciona el tono de piel que aparecerá en tu diseño de uñas",
+    "generate": "Generar Arte de Uñas",
+    "generating": "Generando...",
+    "save": "Guardar",
+    "share": "Compartir",
+    "download": "Descargar Todo"
+  },
+  "footer": {
+    "description": "Generador de arte de uñas con IA para crear hermosos diseños de uñas.",
+    "links": "Enlaces Rápidos",
+    "resources": "Recursos", 
+    "support": "Soporte",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "contact": "Contáctanos",
+    "about": "Acerca de nosotros"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "retry": "Intentar de nuevo",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "share": "Compartir",
+    "download": "Descargar",
+    "copy": "Copiar", 
+    "copied": "¡Copiado!",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "pricing": {
+    "title": "Elige tu Plan de Créditos",
+    "titleWithCredits": "Añadir Más Créditos",
+    "description": "Compra créditos de IA para generar hermosos diseños de arte de uñas. Cada crédito puede generar una imagen de calidad media o 1/5 de una imagen de alta calidad.",
+    "descriptionWithSubscription": "Tienes una suscripción {subscriptionName} activa. Compra créditos adicionales a continuación.",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "oneTime": "una vez",
+    "mostPopular": "Más Popular",
+    "getStarted": "Comenzar",
+    "startFree": "Comenzar Gratis",
+    "choosePlan": "Elegir Plan",
+    "buyNow": "Comprar Ahora",
+    "currentPlan": "Plan Actual",
+    "upgrade": "Actualizar",
+    "features": "Características",
+    "credits": "Créditos",
+    "support": "Soporte",
+    "priority": "Prioridad",
+    "aiCredits": "Créditos de IA",
+    "mediumQualityDesigns": "diseños de calidad media",
+    "highQualityDesigns": "diseños de alta calidad",
+    "noExpiration": "Sin vencimiento",
+    "addedToSubscription": "Añadido a tu suscripción",
+    "plans": {
+      "free": {
+        "name": "Gratuito",
+        "description": "Perfecto para probar la generación de arte de uñas",
+        "features": {
+          "designs": "3 diseños de uñas gratuitos",
+          "quality": "Diseños de calidad estándar",
+          "support": "Soporte básico",
+          "community": "Acceso a la comunidad"
+        }
+      },
+      "basic": {
+        "name": "Básico",
+        "description": "Perfecto para nail artists y profesionales de belleza",
+        "features": {
+          "designs": "60 diseños de uñas",
+          "quality": "Diseños de calidad media",
+          "processing": "Procesamiento prioritario",
+          "history": "Historial básico",
+          "support": "Soporte prioritario"
+        }
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Perfecto para creadores de contenido y negocios de belleza",
+        "features": {
+          "designs": "120 diseños de uñas",
+          "basicFeatures": "Todas las características Básicas",
+          "quality": "Diseños de alta calidad",
+          "bulk": "Generación en lote",
+          "settings": "Configuraciones avanzadas",
+          "support": "Soporte dedicado"
+        }
+      },
+      "max": {
+        "name": "Max",
+        "description": "Perfecto para estudios profesionales y grandes empresas",
+        "features": {
+          "designs": "300 diseños de uñas",
+          "proFeatures": "Todas las características Pro",
+          "api": "Acceso a API",
+          "models": "Modelos personalizados",
+          "support": "Soporte empresarial",
+          "whiteLabel": "Opciones de marca blanca"
+        }
+      }
+    },
+    "creditPackages": {
+      "mini": {
+        "name": "Paquete Mini",
+        "description": "Perfecto para proyectos pequeños"
+      },
+      "standard": {
+        "name": "Paquete Estándar",
+        "description": "Gran valor para uso regular"
+      },
+      "pro": {
+        "name": "Paquete Pro",
+        "description": "Ideal para nail artists profesionales"
+      },
+      "bulk": {
+        "name": "Paquete Masivo",
+        "description": "El mejor valor para necesidades de alto volumen"
+      }
+    },
+    "howCreditsWork": {
+      "title": "Cómo Funcionan los Créditos",
+      "consumption": {
+        "title": "Consumo de Créditos",
+        "mediumQuality": "Calidad Media",
+        "highQuality": "Alta Calidad",
+        "creditSingular": "Crédito",
+        "creditsPlural": "Créditos"
+      },
+      "whatCanGenerate": {
+        "title": "Lo que Puedes Generar",
+        "freePlan": "Plan Gratuito (3 créditos)",
+        "basicPlan": "Plan Básico (60 créditos)",
+        "proPlan": "Plan Pro (120 créditos)",
+        "maxPlan": "Plan Max (300 créditos)",
+        "mediumDesigns": "diseños de calidad media, o",
+        "highDesigns": "diseños de alta calidad"
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "howToStart": {
+        "question": "¿Cómo empiezo?",
+        "answer": "Regístrate para una cuenta gratuita y obtén 3 créditos de IA gratis. No se requiere tarjeta de crédito, comienza a experimentar la generación de arte de uñas con IA inmediatamente."
+      },
+      "qualityDifference": {
+        "question": "¿Cuál es la diferencia entre los niveles de calidad?",
+        "answer": "Calidad media (1 crédito) proporciona buenos resultados para la mayoría de casos de uso. Alta calidad (5 créditos) ofrece detalles superiores y resolución para trabajo profesional."
+      },
+      "commercialUse": {
+        "question": "¿Puedo usar los diseños comercialmente?",
+        "answer": "Todos los diseños de arte de uñas generados pertenecen al usuario y pueden usarse libremente para propósitos comerciales sin licencias adicionales."
+      },
+      "upgradePlan": {
+        "question": "¿Cómo actualizo mi plan?",
+        "answer": "Puedes actualizar o degradar tu plan en cualquier momento en la configuración de tu cuenta, con tarifas calculadas proporcionalmente."
+      }
+    }
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión", 
+    "signup": "Registrarse",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "loginWith": "Iniciar sesión con",
+    "signupWith": "Registrarse con",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "dontHaveAccount": "¿No tienes una cuenta?"
+  },
+  "seo": {
+    "title": "AI Nails: Genera Diseños de Uñas Impresionantes con IA",
+    "introduction": "Bienvenido a AI Nails, tu destino definitivo para inspiración en arte de uñas potenciado por IA. Ya seas un artista de uñas, propietario de salón, o simplemente explores estilos creativos, nuestra herramienta de diseño de uñas con IA te ayuda a crear looks de uñas trendy y personalizados en segundos.",
+    "whatIsTitle": "¿Qué es AI Nails?",
+    "whatIsDescription": "AI Nails es un generador inteligente de arte de uñas que utiliza inteligencia artificial avanzada para generar diseños de uñas hermosos y realistas basados en tus preferencias. Desde uñas minimalistas hasta looks cromados audaces, nuestra IA cubre cada estilo, color y patrón imaginable.",
+    "whyUseTitle": "¿Por qué usar IA para Diseño de Uñas?",
+    "benefits": {
+      "instant": "Obtén ideas de uñas generadas por IA instantáneas adaptadas a tu estilo",
+      "discover": "Descubre miles de diseños de uñas con IA únicos",
+      "save": "Ahorra tiempo y dinero—no más navegación infinita en Pinterest",
+      "perfect": "Perfecto para salones, contenido de redes sociales, o probar nuevos looks en casa"
+    },
+    "featuredTitle": "Diseños Destacados de Arte de Uñas",
+    "featuredDescription": "Explora nuestra colección de diseños de arte de uñas impresionantes, mostrando la versatilidad y creatividad de nuestro generador de arte de uñas con IA. Cada diseño representa diferentes estilos y técnicas en el arte de uñas moderno, proporcionando inspiración para tu próxima manicura.",
+    "mainTitle": "Generador de Arte de Uñas con IA: Revolucionando la Creación de Diseños de Uñas",
+    "mainDescription": "Nuestro generador de arte de uñas con IA representa la vanguardia de la tecnología de diseño de uñas, combinando inteligencia artificial con técnicas creativas de arte de uñas para entregar diseños de uñas impresionantes y personalizados. Ya seas un artista de uñas profesional buscando inspiración o un entusiasta de la belleza explorando tendencias de arte de uñas, nuestra plataforma proporciona las herramientas que necesitas para crear diseños de uñas excepcionales.",
+    "mainContent": {
+      "paragraph1": "El generador de arte de uñas utiliza algoritmos de aprendizaje automático avanzados para entender tus preferencias de estilo y crear diseños de uñas únicos que coinciden con tu personalidad. Desde manicuras francesas clásicas hasta patrones geométricos audaces, nuestra tecnología de diseño de uñas con IA puede generar miles de variaciones, asegurando que nunca te quedes sin ideas de arte de uñas.",
+      "paragraph2": "Los artistas de uñas profesionales están recurriendo cada vez más a herramientas de arte de uñas con IA para agilizar su flujo de trabajo y ofrecer a los clientes más opciones de diseño. Nuestro generador de diseño de uñas ayuda a los artistas a crear arte de uñas personalizado rápidamente, permitiéndoles enfocarse en perfeccionar su técnica y brindar un servicio excepcional."
+    },
+    "features": {
+      "advanced": "IA Avanzada de Arte de Uñas",
+      "advancedDesc": "Nuestro sofisticado generador de arte de uñas con IA utiliza aprendizaje profundo para crear diseños de uñas de calidad profesional. El sistema analiza tendencias actuales de arte de uñas y genera ideas de diseño de uñas innovadoras que son tanto fashion como únicas.",
+      "custom": "Creación de Diseño de Uñas Personalizado",
+      "customDesc": "Crea diseños de arte de uñas personalizados adaptados a tus preferencias de estilo. Nuestro generador de diseño de uñas considera esquemas de color, patrones y ocasiones para producir arte de uñas perfecto para cualquier evento o estado de ánimo.",
+      "professional": "Herramientas Profesionales de Arte de Uñas",
+      "professionalDesc": "Accede a herramientas de arte de uñas y software de diseño de uñas de grado profesional que rivalizan con los estándares de la industria. Nuestra plataforma proporciona a los artistas de uñas la tecnología que necesitan para crear diseños de uñas impresionantes de manera eficiente.",
+      "inspiration": "Galería de Inspiración de Arte de Uñas",
+      "inspirationDesc": "Explora miles de diseños de arte de uñas e ideas de diseño de uñas creadas por nuestra IA. Encuentra inspiración para tu próximo proyecto de arte de uñas o descubre nuevas tendencias de arte de uñas para probar.",
+      "education": "Recursos Educativos de Arte de Uñas",
+      "educationDesc": "Aprende técnicas avanzadas de arte de uñas y principios de diseño de uñas a través de nuestros tutoriales completos. Domina el arte de crear hermosos diseños de uñas con orientación experta y asistencia de IA.",
+      "business": "Soluciones de Negocio de Arte de Uñas",
+      "businessDesc": "Haz crecer tu negocio de arte de uñas con nuestras herramientas y recursos profesionales. Nuestra plataforma ayuda a los artistas de uñas a agilizar su flujo de trabajo y ofrecer servicios de diseño de uñas innovadores a los clientes."
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes Sobre la Generación de Arte de Uñas con IA",
+      "questions": {
+        "howWorks": {
+          "question": "¿Cómo funciona el generador de arte de uñas con IA?",
+          "answer": "Nuestro generador de arte de uñas con IA utiliza algoritmos de aprendizaje automático avanzados para analizar miles de diseños de uñas y crear arte de uñas único basado en tus preferencias. El sistema considera la teoría del color, tendencias actuales de arte de uñas y principios de diseño para generar diseños de uñas de calidad profesional."
+        },
+        "customize": {
+          "question": "¿Puedo personalizar los diseños de uñas generados?",
+          "answer": "¡Por supuesto! Nuestro generador de diseño de uñas te permite personalizar colores, patrones y estilos para crear arte de uñas personalizado. Puedes modificar cualquier aspecto de los diseños de arte de uñas generados para que coincidan con tus preferencias exactas."
+        },
+        "professional": {
+          "question": "¿Es el arte de uñas con IA adecuado para uso profesional?",
+          "answer": "¡Sí! Los artistas de uñas profesionales usan nuestras herramientas de arte de uñas con IA para crear diseños personalizados para clientes. Los diseños de uñas generados cumplen con los estándares de la industria y pueden adaptarse para varias técnicas y aplicaciones de arte de uñas."
+        },
+        "trends": {
+          "question": "¿Con qué frecuencia se agregan nuevas tendencias de arte de uñas?",
+          "answer": "Nuestro generador de arte de uñas se actualiza continuamente con las últimas tendencias de arte de uñas e ideas de diseño de uñas. Monitoreamos tendencias de moda y desarrollos de la industria de la belleza para asegurar que nuestra IA cree diseños de uñas relevantes y fashion."
+        }
+      }
+    },
+    "cta": {
+      "title": "¿Por qué elegir nuestro Generador de Arte de Uñas con IA?",
+      "forArtists": "Para Artistas de Uñas",
+      "forEnthusiasts": "Para Entusiastas de la Belleza",
+      "artistBenefits": {
+        "designs": "Acceso a miles de diseños de arte de uñas",
+        "tools": "Herramientas y recursos profesionales de arte de uñas",
+        "workflow": "Flujo de trabajo de diseño de uñas optimizado",
+        "trends": "Últimas tendencias y técnicas de arte de uñas",
+        "business": "Oportunidades de crecimiento de negocio"
+      },
+      "enthusiastBenefits": {
+        "personalized": "Ideas de arte de uñas personalizadas",
+        "easy": "Generador de diseño de uñas fácil de usar",
+        "trendy": "Diseños de arte de uñas trendy",
+        "educational": "Recursos educativos de arte de uñas",
+        "affordable": "Soluciones de arte de uñas asequibles"
+      },
+      "finalTitle": "Comienza a Crear Arte de Uñas Hermoso Hoy",
+      "finalDescription": "Únete a miles de artistas de uñas y entusiastas de la belleza que ya están usando nuestro generador de arte de uñas con IA para crear diseños de uñas impresionantes. Experimenta el futuro de la creación de arte de uñas con tecnología de diseño de uñas de vanguardia que hace que el arte de uñas hermoso sea accesible para todos."
+    }
+  }
+}

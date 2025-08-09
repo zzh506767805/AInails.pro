@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Início",
+    "pricing": "Preços", 
+    "history": "Histórico",
+    "about": "Sobre",
+    "contact": "Contato",
+    "login": "Entrar",
+    "logout": "Sair"
+  },
+  "hero": {
+    "badge": "Gerador de Arte de Unhas com IA",
+    "title": "Crie Arte de Unhas Lindas",
+    "subtitle": "com Magia da IA",
+    "description": "Transforme suas ideias de arte de unhas em designs deslumbrantes usando tecnologia de IA de ponta. Perfeito para nail artists, profissionais de beleza e entusiastas de arte de unhas."
+  },
+  "generator": {
+    "title": "Gerador de Arte de Unhas com IA", 
+    "description": "Descreva o design de unhas dos seus sonhos e nossa IA criará para você",
+    "placeholder": "ex: Manicure francesa elegante com degradê rosa e padrões florais, perfeita para um casamento na primavera...",
+    "labels": {
+      "describe": "Descreva seu design de unhas",
+      "style": "Estilo",
+      "colorPalette": "Paleta de Cores", 
+      "quality": "Qualidade",
+      "skinTone": "Tom de Pele"
+    },
+    "styles": {
+      "elegant": "Elegante",
+      "bold": "Ousado e Dramático",
+      "minimalist": "Minimalista", 
+      "vintage": "Vintage",
+      "modern": "Moderno"
+    },
+    "colors": {
+      "pink": "Rosa e Rose",
+      "blue": "Azul e Roxo",
+      "neutral": "Neutro",
+      "bright": "Brilhante e Vibrante", 
+      "dark": "Escuro e Misterioso"
+    },
+    "qualities": {
+      "medium": "Qualidade Média (1 Crédito)",
+      "high": "Alta Qualidade (5 Créditos)"
+    },
+    "qualityNote": "A qualidade média é perfeita para a maioria dos usos. A alta qualidade oferece detalhes superiores para trabalhos profissionais.",
+    "skinTones": {
+      "fair": "Tom de pele claro",
+      "light": "Tom de pele clara", 
+      "medium": "Tom de pele médio",
+      "olive": "Tom de pele oliva",
+      "brown": "Tom de pele moreno",
+      "dark": "Tom de pele escuro"
+    },
+    "skinToneNote": "Selecione o tom de pele que aparecerá no seu design de unhas",
+    "generate": "Gerar Arte de Unhas",
+    "generating": "Gerando...",
+    "save": "Salvar",
+    "share": "Compartilhar",
+    "download": "Baixar Tudo"
+  },
+  "footer": {
+    "description": "Gerador de arte de unhas com IA para criar lindos designs de unhas.",
+    "links": "Links Rápidos",
+    "resources": "Recursos", 
+    "support": "Suporte",
+    "legal": "Legal",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "contact": "Entre em Contato",
+    "about": "Sobre Nós"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Algo deu errado",
+    "retry": "Tentar Novamente",
+    "close": "Fechar",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "view": "Visualizar",
+    "share": "Compartilhar",
+    "download": "Baixar",
+    "copy": "Copiar", 
+    "copied": "Copiado!",
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "pricing": {
+    "title": "Escolha Seu Plano de Créditos",
+    "titleWithCredits": "Adicionar Mais Créditos",
+    "description": "Compre créditos de IA para gerar belos designs de nail art. Cada crédito pode gerar uma imagem de qualidade média ou 1/5 de uma imagem de alta qualidade.",
+    "descriptionWithSubscription": "Você tem uma assinatura {subscriptionName} ativa. Compre créditos adicionais abaixo.",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "oneTime": "único",
+    "mostPopular": "Mais Popular",
+    "getStarted": "Começar",
+    "startFree": "Começar Grátis",
+    "choosePlan": "Escolher Plano",
+    "buyNow": "Comprar Agora",
+    "currentPlan": "Plano Atual",
+    "upgrade": "Upgrade",
+    "features": "Recursos",
+    "credits": "Créditos",
+    "support": "Suporte",
+    "priority": "Prioridade",
+    "aiCredits": "Créditos de IA",
+    "mediumQualityDesigns": "designs de qualidade média",
+    "highQualityDesigns": "designs de alta qualidade",
+    "noExpiration": "Sem expiração",
+    "addedToSubscription": "Adicionado à sua assinatura",
+    "plans": {
+      "free": {
+        "name": "Gratuito",
+        "description": "Perfeito para experimentar a geração de nail art",
+        "features": {
+          "designs": "3 designs de unhas gratuitos",
+          "quality": "Designs de qualidade padrão",
+          "support": "Suporte básico",
+          "community": "Acesso à comunidade"
+        }
+      },
+      "basic": {
+        "name": "Básico",
+        "description": "Perfeito para nail artists e profissionais de beleza",
+        "features": {
+          "designs": "60 designs de unhas",
+          "quality": "Designs de qualidade média",
+          "processing": "Processamento prioritário",
+          "history": "Histórico básico",
+          "support": "Suporte prioritário"
+        }
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Perfeito para criadores de conteúdo e negócios de beleza",
+        "features": {
+          "designs": "120 designs de unhas",
+          "basicFeatures": "Todos os recursos do Básico",
+          "quality": "Designs de alta qualidade",
+          "bulk": "Geração em massa",
+          "settings": "Configurações avançadas",
+          "support": "Suporte dedicado"
+        }
+      },
+      "max": {
+        "name": "Max",
+        "description": "Perfeito para estúdios profissionais e grandes empresas",
+        "features": {
+          "designs": "300 designs de unhas",
+          "proFeatures": "Todos os recursos do Pro",
+          "api": "Acesso à API",
+          "models": "Modelos customizados",
+          "support": "Suporte empresarial",
+          "whiteLabel": "Opções white-label"
+        }
+      }
+    },
+    "creditPackages": {
+      "mini": {
+        "name": "Pacote Mini",
+        "description": "Perfeito para projetos pequenos"
+      },
+      "standard": {
+        "name": "Pacote Padrão",
+        "description": "Ótimo valor para uso regular"
+      },
+      "pro": {
+        "name": "Pacote Pro",
+        "description": "Ideal para nail artists profissionais"
+      },
+      "bulk": {
+        "name": "Pacote em Massa",
+        "description": "Melhor valor para necessidades de alto volume"
+      }
+    },
+    "howCreditsWork": {
+      "title": "Como os Créditos Funcionam",
+      "consumption": {
+        "title": "Consumo de Créditos",
+        "mediumQuality": "Qualidade Média",
+        "highQuality": "Alta Qualidade",
+        "creditSingular": "Crédito",
+        "creditsPlural": "Créditos"
+      },
+      "whatCanGenerate": {
+        "title": "O Que Você Pode Gerar",
+        "freePlan": "Plano Gratuito (3 créditos)",
+        "basicPlan": "Plano Básico (60 créditos)",
+        "proPlan": "Plano Pro (120 créditos)",
+        "maxPlan": "Plano Max (300 créditos)",
+        "mediumDesigns": "designs de qualidade média, ou",
+        "highDesigns": "designs de alta qualidade"
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "howToStart": {
+        "question": "Como faço para começar?",
+        "answer": "Cadastre-se para uma conta gratuita e ganhe 3 créditos de IA grátis. Não é necessário cartão de crédito, comece a experimentar a geração de nail art com IA imediatamente."
+      },
+      "qualityDifference": {
+        "question": "Qual é a diferença entre os níveis de qualidade?",
+        "answer": "Qualidade média (1 crédito) oferece bons resultados para a maioria dos casos de uso. Alta qualidade (5 créditos) oferece detalhes superiores e resolução para trabalho profissional."
+      },
+      "commercialUse": {
+        "question": "Posso usar os designs comercialmente?",
+        "answer": "Todos os designs de nail art gerados pertencem ao usuário e podem ser usados livremente para fins comerciais sem licenciamento adicional."
+      },
+      "upgradePlan": {
+        "question": "Como faço upgrade do meu plano?",
+        "answer": "Você pode fazer upgrade ou downgrade do seu plano a qualquer momento nas configurações da conta, com taxas calculadas proporcionalmente."
+      }
+    }
+  },
+  "auth": {
+    "login": "Entrar",
+    "logout": "Sair", 
+    "signup": "Cadastrar",
+    "email": "Email",
+    "password": "Senha",
+    "forgotPassword": "Esqueceu a senha?",
+    "loginWith": "Entrar com",
+    "signupWith": "Cadastrar com",
+    "alreadyHaveAccount": "Já tem uma conta?",
+    "dontHaveAccount": "Não tem uma conta?"
+  },
+  "seo": {
+    "title": "AI Nails: Gere Designs de Unhas Deslumbrantes com IA",
+    "introduction": "Bem-vindo ao AI Nails, seu destino definitivo para inspiração em nail art alimentada por IA. Seja você um nail artist, proprietário de salão, ou simplesmente explorando estilos criativos, nossa ferramenta de design de unhas com IA ajuda você a criar looks de unhas trendy e personalizados em segundos.",
+    "whatIsTitle": "O que é AI Nails?",
+    "whatIsDescription": "AI Nails é um gerador inteligente de nail art que usa inteligência artificial avançada para gerar designs de unhas lindos e realistas baseados em suas preferências. De unhas minimalistas a looks cromados ousados, nossa IA cobre todos os estilos, cores e padrões imagináveis.",
+    "whyUseTitle": "Por que usar IA para Design de Unhas?",
+    "benefits": {
+      "instant": "Obtenha ideias instantâneas de unhas geradas por IA adaptadas ao seu estilo",
+      "discover": "Descubra milhares de designs únicos de unhas com IA",
+      "save": "Economize tempo e dinheiro—sem mais rolagem infinita no Pinterest",
+      "perfect": "Perfeito para salões, conteúdo de mídia social, ou experimentar novos looks em casa"
+    },
+    "featuredTitle": "Designs de Nail Art em Destaque",
+    "featuredDescription": "Explore nossa coleção de designs de nail art deslumbrantes, mostrando a versatilidade e criatividade do nosso gerador de nail art com IA. Cada design representa diferentes estilos e técnicas na arte moderna das unhas, fornecendo inspiração para sua próxima manicure.",
+    "mainTitle": "Gerador de Nail Art com IA: Revolucionando a Criação de Designs de Unhas",
+    "mainDescription": "Nosso gerador de nail art com IA representa o que há de mais avançado em tecnologia de design de unhas, combinando inteligência artificial com técnicas criativas de nail art para entregar designs de unhas impressionantes e personalizados. Seja você um nail artist profissional buscando inspiração ou um entusiasta de beleza explorando tendências de nail art, nossa plataforma fornece as ferramentas de que você precisa para criar designs de unhas excepcionais.",
+    "mainContent": {
+      "paragraph1": "O gerador de nail art utiliza algoritmos avançados de machine learning para entender suas preferências de estilo e criar designs únicos de unhas que combinam com sua personalidade. De manicures francesas clássicas a padrões geométricos ousados, nossa tecnologia de design de unhas com IA pode gerar milhares de variações, garantindo que você nunca fique sem ideias de nail art.",
+      "paragraph2": "Nail artists profissionais estão cada vez mais recorrendo a ferramentas de nail art com IA para otimizar seu fluxo de trabalho e oferecer aos clientes mais opções de design. Nosso gerador de design de unhas ajuda artistas a criar nail art personalizada rapidamente, permitindo que se concentrem em aperfeiçoar sua técnica e fornecer serviço excepcional."
+    },
+    "features": {
+      "advanced": "IA Avançada de Nail Art",
+      "advancedDesc": "Nosso sofisticado gerador de nail art com IA usa deep learning para criar designs de unhas de qualidade profissional. O sistema analisa tendências atuais de nail art e gera ideias inovadoras de design de unhas que são tanto fashion quanto únicas.",
+      "custom": "Criação de Design de Unhas Personalizado",
+      "customDesc": "Crie designs de nail art personalizados adaptados às suas preferências de estilo. Nosso gerador de design de unhas considera esquemas de cores, padrões e ocasiões para produzir nail art perfeita para qualquer evento ou humor.",
+      "professional": "Ferramentas Profissionais de Nail Art",
+      "professionalDesc": "Acesse ferramentas profissionais de nail art e software de design de unhas que rivalizam com padrões da indústria. Nossa plataforma fornece aos nail artists a tecnologia de que precisam para criar designs de unhas impressionantes com eficiência.",
+      "inspiration": "Galeria de Inspiração de Nail Art",
+      "inspirationDesc": "Navegue por milhares de designs de nail art e ideias de design de unhas criados por nossa IA. Encontre inspiração para seu próximo projeto de nail art ou descubra novas tendências de nail art para experimentar.",
+      "education": "Recursos Educacionais de Nail Art",
+      "educationDesc": "Aprenda técnicas avançadas de nail art e princípios de design de unhas através de nossos tutoriais abrangentes. Domine a arte de criar belos designs de unhas com orientação especializada e assistência de IA.",
+      "business": "Soluções de Negócio para Nail Art",
+      "businessDesc": "Faça crescer seu negócio de nail art com nossas ferramentas e recursos profissionais. Nossa plataforma ajuda nail artists a otimizar seu fluxo de trabalho e oferecer serviços inovadores de design de unhas aos clientes."
+    },
+    "faq": {
+      "title": "Perguntas Frequentes sobre Geração de Nail Art com IA",
+      "questions": {
+        "howWorks": {
+          "question": "Como funciona o gerador de nail art com IA?",
+          "answer": "Nosso gerador de nail art com IA usa algoritmos avançados de machine learning para analisar milhares de designs de unhas e criar nail art única baseada em suas preferências. O sistema considera teoria das cores, tendências atuais de nail art e princípios de design para gerar designs de unhas de qualidade profissional."
+        },
+        "customize": {
+          "question": "Posso personalizar os designs de unhas gerados?",
+          "answer": "Absolutamente! Nosso gerador de design de unhas permite que você personalize cores, padrões e estilos para criar nail art personalizada. Você pode modificar qualquer aspecto dos designs de nail art gerados para corresponder às suas preferências exatas."
+        },
+        "professional": {
+          "question": "A nail art com IA é adequada para uso profissional?",
+          "answer": "Sim! Nail artists profissionais usam nossas ferramentas de nail art com IA para criar designs personalizados para clientes. Os designs de unhas gerados atendem aos padrões da indústria e podem ser adaptados para várias técnicas e aplicações de nail art."
+        },
+        "trends": {
+          "question": "Com que frequência novas tendências de nail art são adicionadas?",
+          "answer": "Nosso gerador de nail art é continuamente atualizado com as últimas tendências de nail art e ideias de design de unhas. Monitoramos tendências de moda e desenvolvimentos da indústria da beleza para garantir que nossa IA crie designs de unhas relevantes e fashion."
+        }
+      }
+    },
+    "cta": {
+      "title": "Por que escolher nosso Gerador de Nail Art com IA?",
+      "forArtists": "Para Nail Artists",
+      "forEnthusiasts": "Para Entusiastas de Beleza",
+      "artistBenefits": {
+        "designs": "Acesso a milhares de designs de nail art",
+        "tools": "Ferramentas e recursos profissionais de nail art",
+        "workflow": "Fluxo de trabalho otimizado de design de unhas",
+        "trends": "Últimas tendências e técnicas de nail art",
+        "business": "Oportunidades de crescimento de negócio"
+      },
+      "enthusiastBenefits": {
+        "personalized": "Ideias personalizadas de nail art",
+        "easy": "Gerador de design de unhas fácil de usar",
+        "trendy": "Designs trendy de nail art",
+        "educational": "Recursos educacionais de nail art",
+        "affordable": "Soluções acessíveis de nail art"
+      },
+      "finalTitle": "Comece a Criar Bela Nail Art Hoje",
+      "finalDescription": "Junte-se a milhares de nail artists e entusiastas de beleza que já estão usando nosso gerador de nail art com IA para criar designs de unhas impressionantes. Experimente o futuro da criação de nail art com tecnologia de design de unhas de ponta que torna a bela nail art acessível a todos."
+    }
+  }
+}

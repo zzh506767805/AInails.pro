@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "pricing": "Cennik", 
+    "history": "Historia",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "login": "Zaloguj się",
+    "logout": "Wyloguj się"
+  },
+  "hero": {
+    "badge": "Generator sztuki paznokci AI",
+    "title": "Twórz piękną sztukę paznokci",
+    "subtitle": "z magią AI",
+    "description": "Przekształć swoje pomysły na sztukę paznokci w oszałamiające projekty, używając najnowocześniejszej technologii AI. Idealne dla nail artistów, profesjonalistów beauty i miłośników sztuki paznokci."
+  },
+  "generator": {
+    "title": "Generator sztuki paznokci AI", 
+    "description": "Opisz wymarzone wzory na paznokcie, a nasza AI je stworzy dla Ciebie",
+    "placeholder": "np. Elegancki francuski manicure z różowym gradientem i kwiatowymi wzorami, idealny na wiosenny ślub...",
+    "labels": {
+      "describe": "Opisz swój design paznokci",
+      "style": "Styl",
+      "colorPalette": "Paleta kolorów", 
+      "quality": "Jakość",
+      "skinTone": "Odcień skóry"
+    },
+    "styles": {
+      "elegant": "Elegancki",
+      "bold": "Odważny i dramatyczny",
+      "minimalist": "Minimalistyczny", 
+      "vintage": "Vintage",
+      "modern": "Nowoczesny"
+    },
+    "colors": {
+      "pink": "Różowy i Rose",
+      "blue": "Niebieski i fioletowy",
+      "neutral": "Neutralny",
+      "bright": "Jasny i żywy", 
+      "dark": "Ciemny i tajemniczy"
+    },
+    "qualities": {
+      "medium": "Średnia jakość (1 kredyt)",
+      "high": "Wysoka jakość (5 kredytów)"
+    },
+    "qualityNote": "Średnia jakość jest idealna do większości zastosowań. Wysoka jakość oferuje doskonałe szczegóły do pracy profesjonalnej.",
+    "skinTones": {
+      "fair": "Jasny odcień skóry",
+      "light": "Lekki odcień skóry", 
+      "medium": "Średni odcień skóry",
+      "olive": "Oliwkowy odcień skóry",
+      "brown": "Brązowy odcień skóry",
+      "dark": "Ciemny odcień skóry"
+    },
+    "skinToneNote": "Wybierz odcień skóry, który pojawi się w twoim designie paznokci",
+    "generate": "Generuj sztukę paznokci",
+    "generating": "Generowanie...",
+    "save": "Zapisz",
+    "share": "Udostępnij",
+    "download": "Pobierz wszystko"
+  },
+  "footer": {
+    "description": "Generator sztuki paznokci oparty na AI do tworzenia pięknych wzorów na paznokcie.",
+    "links": "Szybkie linki",
+    "resources": "Zasoby", 
+    "support": "Wsparcie",
+    "legal": "Prawne",
+    "privacy": "Polityka prywatności",
+    "terms": "Warunki użytkowania",
+    "contact": "Skontaktuj się z nami",
+    "about": "O nas"
+  },
+  "common": {
+    "loading": "Ładowanie...",
+    "error": "Coś poszło nie tak",
+    "retry": "Spróbuj ponownie",
+    "close": "Zamknij",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "view": "Zobacz",
+    "share": "Udostępnij",
+    "download": "Pobierz",
+    "copy": "Kopiuj", 
+    "copied": "Skopiowane!",
+    "yes": "Tak",
+    "no": "Nie"
+  },
+  "pricing": {
+    "title": "Wybierz Swój Plan Kredytów",
+    "titleWithCredits": "Dodaj Więcej Kredytów",
+    "description": "Kup kredyty AI, aby generować piękne projekty nail art. Każdy kredyt może wygenerować jeden obraz średniej jakości lub 1/5 obrazu wysokiej jakości.",
+    "descriptionWithSubscription": "Masz aktywną subskrypcję {subscriptionName}. Kup dodatkowe kredyty poniżej.",
+    "monthly": "Miesięczny",
+    "yearly": "Roczny",
+    "oneTime": "jednorazowy",
+    "mostPopular": "Najbardziej Popularny",
+    "getStarted": "Zacznij",
+    "startFree": "Zacznij Za Darmo",
+    "choosePlan": "Wybierz Plan",
+    "buyNow": "Kup Teraz",
+    "currentPlan": "Aktualny Plan",
+    "upgrade": "Uaktualnij",
+    "features": "Funkcje",
+    "credits": "Kredyty",
+    "support": "Wsparcie",
+    "priority": "Priorytet",
+    "aiCredits": "Kredyty AI",
+    "mediumQualityDesigns": "projekty średniej jakości",
+    "highQualityDesigns": "projekty wysokiej jakości",
+    "noExpiration": "Bez ważności",
+    "addedToSubscription": "Dodano do twojej subskrypcji",
+    "plans": {
+      "free": {
+        "name": "Darmowy",
+        "description": "Idealny do próbowania generowania nail art",
+        "features": {
+          "designs": "3 darmowe projekty paznokci",
+          "quality": "Projekty standardowej jakości",
+          "support": "Podstawowe wsparcie",
+          "community": "Dostęp do społeczności"
+        }
+      },
+      "basic": {
+        "name": "Podstawowy",
+        "description": "Idealny dla nail artistów i profesjonalistów beauty",
+        "features": {
+          "designs": "60 projektów paznokci",
+          "quality": "Projekty średniej jakości",
+          "processing": "Przetwarzanie priorytetowe",
+          "history": "Podstawowa historia",
+          "support": "Wsparcie priorytetowe"
+        }
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Idealny dla tworzenia treści i biznesów beauty",
+        "features": {
+          "designs": "120 projektów paznokci",
+          "basicFeatures": "Wszystkie funkcje Podstawowe",
+          "quality": "Projekty wysokiej jakości",
+          "bulk": "Generowanie grupowe",
+          "settings": "Zaawansowane ustawienia",
+          "support": "Dedykowane wsparcie"
+        }
+      },
+      "max": {
+        "name": "Max",
+        "description": "Idealny dla profesjonalnych studiów i dużych firm",
+        "features": {
+          "designs": "300 projektów paznokci",
+          "proFeatures": "Wszystkie funkcje Pro",
+          "api": "Dostęp do API",
+          "models": "Niestandardowe modele",
+          "support": "Wsparcie korporacyjne",
+          "whiteLabel": "Opcje białej etykiety"
+        }
+      }
+    },
+    "creditPackages": {
+      "mini": {
+        "name": "Pakiet Mini",
+        "description": "Idealny dla małych projektów"
+      },
+      "standard": {
+        "name": "Pakiet Standardowy",
+        "description": "Świetna wartość dla regularnego użytku"
+      },
+      "pro": {
+        "name": "Pakiet Pro",
+        "description": "Idealny dla profesjonalnych nail artistów"
+      },
+      "bulk": {
+        "name": "Pakiet Hurtowy",
+        "description": "Najlepsza wartość dla dużych potrzeb"
+      }
+    },
+    "howCreditsWork": {
+      "title": "Jak Działają Kredyty",
+      "consumption": {
+        "title": "Zużycie Kredytów",
+        "mediumQuality": "Średnia Jakość",
+        "highQuality": "Wysoka Jakość",
+        "creditSingular": "Kredyt",
+        "creditsPlural": "Kredyty"
+      },
+      "whatCanGenerate": {
+        "title": "Co Możesz Wygenerować",
+        "freePlan": "Plan Darmowy (3 kredyty)",
+        "basicPlan": "Plan Podstawowy (60 kredytów)",
+        "proPlan": "Plan Pro (120 kredytów)",
+        "maxPlan": "Plan Max (300 kredytów)",
+        "mediumDesigns": "projekty średniej jakości, lub",
+        "highDesigns": "projekty wysokiej jakości"
+      }
+    },
+    "faq": {
+      "title": "Często Zadawane Pytania",
+      "howToStart": {
+        "question": "Jak zacząć?",
+        "answer": "Zarejestruj się na darmowe konto i otrzymaj 3 darmowe kredyty AI. Nie jest potrzebna karta kredytowa, zacznij eksperymentować z generowaniem nail art AI natychmiast."
+      },
+      "qualityDifference": {
+        "question": "Jaka jest różnica między poziomami jakości?",
+        "answer": "Średnia jakość (1 kredyt) zapewnia dobre rezultaty dla większości przypadków użycia. Wysoka jakość (5 kredytów) oferuje doskonale szczegóły i rozdzielczość dla pracy profesjonalnej."
+      },
+      "commercialUse": {
+        "question": "Czy mogę używać projektów komercyjnie?",
+        "answer": "Wszystkie wygenerowane projekty nail art należą do użytkownika i mogą być swobodnie używane do celów komercyjnych bez dodatkowych licencji."
+      },
+      "upgradePlan": {
+        "question": "Jak mogę uaktualnić mój plan?",
+        "answer": "Możesz uaktualnić lub obniżyć swój plan w dowolnym momencie w ustawieniach konta, z opłatami obliczanymi proporcjonalnie."
+      }
+    }
+  },
+  "auth": {
+    "login": "Zaloguj się",
+    "logout": "Wyloguj się", 
+    "signup": "Zarejestruj się",
+    "email": "Email",
+    "password": "Hasło",
+    "forgotPassword": "Zapomniałeś hasła?",
+    "loginWith": "Zaloguj się przez",
+    "signupWith": "Zarejestruj się przez",
+    "alreadyHaveAccount": "Masz już konto?",
+    "dontHaveAccount": "Nie masz konta?"
+  },
+  "seo": {
+    "title": "AI Nails: Twórz Wspaniałe Wzory Paznokci z AI",
+    "introduction": "Witaj w AI Nails, Twoim głównym miejscu dla inspiracji nail art napędzanej przez AI. Niezależnie od tego, czy jesteś nail artistą, właścicielem salonu, czy po prostu odkrywasz kreatywne style, nasze narzędzie do projektowania paznokci AI pomoże Ci stworzyć modne, spersonalizowane stylizacje paznokci w ciągu sekund.",
+    "whatIsTitle": "Czym jest AI Nails?",
+    "whatIsDescription": "AI Nails to inteligentny generator sztuki paznokci, który używa zaawansowanej sztucznej inteligencji do tworzenia pięknych i realistycznych wzorów paznokci opartych na Twoich preferencjach. Od minimalistycznych paznokci po odważne chromowe stylizacje, nasza AI obejmuje każdy styl, kolor i wzór, jaki można sobie wyobrazić.",
+    "whyUseTitle": "Dlaczego Używać AI do Projektowania Paznokci?",
+    "benefits": {
+      "instant": "Otrzymuj natychmiastowe pomysły na paznokcie generowane przez AI, dostosowane do Twojego stylu",
+      "discover": "Odkrywaj tysiące unikalnych wzorów paznokci AI",
+      "save": "Oszczędzaj czas i pieniądze—koniec z nieskończonym przewijaniem Pinterest",
+      "perfect": "Idealne dla salonów, treści w mediach społecznościowych lub wypróbowywania nowych stylizacji w domu"
+    },
+    "featuredTitle": "Wyróżnione Wzory Nail Art",
+    "featuredDescription": "Odkryj naszą kolekcję wspaniałych wzorów nail art, pokazujących wszechstronność i kreatywność naszego generatora nail art AI. Każdy wzór reprezentuje różne style i techniki w nowoczesnej sztuce paznokci, zapewniając inspirację dla Twojego kolejnego manicure.",
+    "mainTitle": "Generator Nail Art AI: Rewolucjonizowanie Tworzenia Wzorów Paznokci",
+    "mainDescription": "Nasz generator nail art AI reprezentuje najnowocześniejszą technologię projektowania paznokci, łącząc sztuczną inteligencję z kreatywnymi technikami nail art, aby dostarczyć oszałamiające, spersonalizowane wzory paznokci. Niezależnie od tego, czy jesteś profesjonalnym nail artistą szukającym inspiracji, czy entuzjastą beauty eksplorującym trendy nail art, nasza platforma zapewnia narzędzia potrzebne do tworzenia wyjątkowych wzorów paznokci.",
+    "mainContent": {
+      "paragraph1": "Generator nail art wykorzystuje zaawansowane algorytmy uczenia maszynowego do zrozumienia Twoich preferencji stylowych i tworzenia unikalnych wzorów paznokci pasujących do Twojej osobowości. Od klasycznych manicure francuskich po odważne geometryczne wzory, nasza technologia projektowania paznokci AI może generować tysiące wariantów, zapewniając, że nigdy nie zabraknie Ci pomysłów na nail art.",
+      "paragraph2": "Profesjonalni nail artyści coraz częściej zwracają się do narzędzi nail art AI, aby usprawnić swój przepływ pracy i oferować klientom więcej opcji projektowych. Nasz generator wzorów paznokci pomaga artystom szybko tworzyć niestandardowe nail art, pozwalając im skupić się na doskonaleniu techniki i zapewnianiu wyjątkowego serwisu."
+    },
+    "features": {
+      "advanced": "Zaawansowane AI Nail Art",
+      "advancedDesc": "Nasz zaawansowany generator nail art AI używa głębokiego uczenia do tworzenia profesjonalnych wzorów paznokci. System analizuje obecne trendy nail art i generuje innowacyjne pomysły na wzory paznokci, które są zarówno modne, jak i unikalne.",
+      "custom": "Tworzenie Niestandardowych Wzorów Paznokci",
+      "customDesc": "Twórz spersonalizowane wzory nail art dostosowane do Twoich preferencji stylowych. Nasz generator wzorów paznokci uwzględnia schematy kolorów, wzory i okazje, aby produkować idealne nail art na każde wydarzenie lub nastrój.",
+      "professional": "Profesjonalne Narzędzia Nail Art",
+      "professionalDesc": "Uzyskaj dostęp do profesjonalnych narzędzi nail art i oprogramowania do projektowania paznokci, które rywalizuje ze standardami branżowymi. Nasza platforma zapewnia nail artystom technologię potrzebną do efektywnego tworzenia oszałamiających wzorów paznokci.",
+      "inspiration": "Galeria Inspiracji Nail Art",
+      "inspirationDesc": "Przeglądaj tysiące wzorów nail art i pomysłów na projekty paznokci stworzonych przez naszą AI. Znajdź inspirację dla swojego następnego projektu nail art lub odkryj nowe trendy nail art do wypróbowania.",
+      "education": "Zasoby Edukacyjne Nail Art",
+      "educationDesc": "Ucz się zaawansowanych technik nail art i zasad projektowania paznokci poprzez nasze kompleksowe tutoriale. Opanuj sztukę tworzenia pięknych wzorów paznokci z ekspertycznym przewodnictwem i pomocą AI.",
+      "business": "Rozwiązania Biznesowe Nail Art",
+      "businessDesc": "Rozwijaj swój biznes nail art dzięki naszym profesjonalnym narzędziom i zasobom. Nasza platforma pomaga nail artystom usprawnić ich przepływ pracy i oferować klientom innowacyjne usługi projektowania paznokci."
+    },
+    "faq": {
+      "title": "Często Zadawane Pytania o Generowanie Nail Art AI",
+      "questions": {
+        "howWorks": {
+          "question": "Jak działa generator nail art AI?",
+          "answer": "Nasz generator nail art AI używa zaawansowanych algorytmów uczenia maszynowego do analizowania tysięcy wzorów paznokci i tworzenia unikalnej sztuki paznokci na podstawie Twoich preferencji. System uwzględnia teorię kolorów, obecne trendy nail art i zasady projektowania, aby generować wzory paznokci o jakości profesjonalnej."
+        },
+        "customize": {
+          "question": "Czy mogę dostosować wygenerowane wzory paznokci?",
+          "answer": "Oczywiście! Nasz generator wzorów paznokci pozwala Ci dostosować kolory, wzory i style, aby tworzyć spersonalizowane nail art. Możesz modyfikować dowolny aspekt wygenerowanych wzorów nail art, aby dopasować je do swoich dokładnych preferencji."
+        },
+        "professional": {
+          "question": "Czy AI nail art nadaje się do użytku profesjonalnego?",
+          "answer": "Tak! Profesjonalni nail artyści używają naszych narzędzi AI nail art do tworzenia niestandardowych projektów dla klientów. Wygenerowane wzory paznokci spełniają standardy branżowe i mogą być dostosowane do różnych technik i zastosowań nail art."
+        },
+        "trends": {
+          "question": "Jak często dodawane są nowe trendy nail art?",
+          "answer": "Nasz generator nail art jest stale aktualizowany najnowszymi trendami nail art i pomysłami na wzory paznokci. Monitorujemy trendy modowe i rozwój branży beauty, aby zapewnić, że nasza AI tworzy odpowiednie i modne wzory paznokci."
+        }
+      }
+    },
+    "cta": {
+      "title": "Dlaczego Wybrać Nasz Generator Nail Art AI?",
+      "forArtists": "Dla Nail Artystów",
+      "forEnthusiasts": "Dla Entuzjastów Beauty",
+      "artistBenefits": {
+        "designs": "Dostęp do tysięcy wzorów nail art",
+        "tools": "Profesjonalne narzędzia i zasoby nail art",
+        "workflow": "Usprawniony przepływ pracy projektowania paznokci",
+        "trends": "Najnowsze trendy i techniki nail art",
+        "business": "Możliwości rozwoju biznesu"
+      },
+      "enthusiastBenefits": {
+        "personalized": "Spersonalizowane pomysły na nail art",
+        "easy": "Łatwy w użyciu generator wzorów paznokci",
+        "trendy": "Modne wzory nail art",
+        "educational": "Edukacyjne zasoby nail art",
+        "affordable": "Przystępne rozwiązania nail art"
+      },
+      "finalTitle": "Zacznij Tworzyć Piękne Nail Art Już Dziś",
+      "finalDescription": "Dołącz do tysięcy nail artystów i entuzjastów beauty, którzy już używają naszego generatora nail art AI do tworzenia oszałamiających wzorów paznokci. Doświadcz przyszłości tworzenia nail art z najnowocześniejszą technologią projektowania paznokci, która sprawia, że piękne nail art jest dostępne dla wszystkich."
+    }
+  }
+}

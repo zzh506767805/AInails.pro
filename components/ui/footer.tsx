@@ -1,7 +1,20 @@
-import React from 'react';
-import Link from 'next/link';
+import React from 'react'
+import Link from 'next/link'
+import { Locale } from '@/lib/i18n/config'
+import { Dictionary } from '@/lib/i18n/dictionaries'
 
-export default function Footer() {
+interface FooterProps {
+  locale: Locale
+  dictionary: Dictionary
+}
+
+export default function Footer({ locale, dictionary }: FooterProps) {
+  // Helper function to create localized links
+  const createLocalizedLink = (path: string) => {
+    if (path === '/') return `/${locale}`
+    return `/${locale}${path}`
+  }
+
   return (
     <footer className="w-full bg-gray-50 border-t border-gray-200 py-6 mt-10">
       <div className="container mx-auto px-4">
@@ -12,28 +25,28 @@ export default function Footer() {
           
           <div className="flex flex-wrap gap-6 justify-center">
             <Link 
-              href="/" 
+              href={createLocalizedLink('/')}
               className="text-sm text-gray-600 hover:text-red-500 transition-colors"
             >
-              Home
+              {dictionary?.nav?.home || 'Home'}
             </Link>
             <Link 
-              href="/pricing" 
+              href={createLocalizedLink('/pricing')}
               className="text-sm text-gray-600 hover:text-red-500 transition-colors"
             >
-              Pricing
+              {dictionary?.nav?.pricing || 'Pricing'}
             </Link>
             <Link 
-              href="/terms" 
+              href={createLocalizedLink('/terms')}
               className="text-sm text-gray-600 hover:text-red-500 transition-colors"
             >
-              Terms of Service
+              {dictionary?.footer?.terms || 'Terms of Service'}
             </Link>
             <Link 
-              href="/privacy" 
+              href={createLocalizedLink('/privacy')}
               className="text-sm text-gray-600 hover:text-red-500 transition-colors"
             >
-              Privacy Policy
+              {dictionary?.footer?.privacy || 'Privacy Policy'}
             </Link>
           </div>
           
@@ -85,5 +98,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  );
-} 
+  )
+}

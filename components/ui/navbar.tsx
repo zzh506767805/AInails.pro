@@ -17,8 +17,16 @@ import {
 import { useUser, useCredits } from '@/lib/hooks/useUser'
 import { createClient } from '@/lib/supabase/client'
 import { LogOut, User, CreditCard, History, Home, Settings } from 'lucide-react'
+import { Locale } from '@/lib/i18n/config'
+import { Dictionary } from '@/lib/i18n/dictionaries'
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 
-const Navbar = () => {
+interface NavbarProps {
+  locale: Locale
+  dictionary: Dictionary
+}
+
+const Navbar = ({ locale, dictionary }: NavbarProps) => {
   const { user, loading } = useUser()
   const credits = useCredits()
   const pathname = usePathname()
@@ -31,9 +39,15 @@ const Navbar = () => {
 
   // Function to check if a path is active
   const isActive = (path: string) => {
-    if (path === '/' && pathname === '/') return true
-    if (path !== '/' && pathname.startsWith(path)) return true
+    if (path === `/${locale}` && pathname === `/${locale}`) return true
+    if (path !== `/${locale}` && pathname.startsWith(path)) return true
     return false
+  }
+
+  // Helper function to create localized links
+  const createLocalizedLink = (path: string) => {
+    if (path === '/') return `/${locale}`
+    return `/${locale}${path}`
   }
 
   return (
@@ -42,7 +56,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
+            <Link href={createLocalizedLink('/')} className="flex items-center space-x-2">
               <div className="w-8 h-8 flex items-center justify-center">
                 <Image 
                   src="/android-chrome-192x192.png" 
@@ -59,41 +73,44 @@ const Navbar = () => {
           {/* Tab Navigation */}
           <div className="hidden md:flex items-center">
             <div className="flex space-x-1 bg-gray-50 p-1 rounded-lg">
-              <Link href="/" className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
-                isActive('/') 
+              <Link href={createLocalizedLink('/')} className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+                isActive(`/${locale}`) 
                   ? 'bg-white text-pink-600 shadow-sm' 
                   : 'text-gray-700 hover:text-pink-600 hover:bg-gray-100'
               }`}>
                 <div className="flex items-center space-x-1">
                   <Home className="w-4 h-4" />
-                  <span>Home</span>
+                  <span>{dictionary?.nav?.home || 'Home'}</span>
                 </div>
               </Link>
-              <Link href="/history" className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
-                isActive('/history') 
+              <Link href={createLocalizedLink('/history')} className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+                isActive(`/${locale}/history`) 
                   ? 'bg-white text-pink-600 shadow-sm' 
                   : 'text-gray-700 hover:text-pink-600 hover:bg-gray-100'
               }`}>
                 <div className="flex items-center space-x-1">
                   <History className="w-4 h-4" />
-                  <span>History</span>
+                  <span>{dictionary?.nav?.history || 'History'}</span>
                 </div>
               </Link>
-              <Link href="/pricing" className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
-                isActive('/pricing') 
+              <Link href={createLocalizedLink('/pricing')} className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+                isActive(`/${locale}/pricing`) 
                   ? 'bg-white text-pink-600 shadow-sm' 
                   : 'text-gray-700 hover:text-pink-600 hover:bg-gray-100'
               }`}>
                 <div className="flex items-center space-x-1">
                   <CreditCard className="w-4 h-4" />
-                  <span>Pricing</span>
+                  <span>{dictionary?.nav?.pricing || 'Pricing'}</span>
                 </div>
               </Link>
             </div>
           </div>
 
-          {/* User Menu */}
+          {/* User Menu and Language Switcher */}
           <div className="flex items-center space-x-4">
+            {/* Language Switcher */}
+            <LanguageSwitcher currentLocale={locale} />
+
             {user ? (
               <>
                 {/* Credits Display */}
@@ -126,13 +143,13 @@ const Navbar = () => {
                     </DropdownMenuLabel>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem asChild>
-                      <Link href="/history" className="flex items-center">
+                      <Link href={createLocalizedLink('/history')} className="flex items-center">
                         <History className="mr-2 h-4 w-4" />
-                        History
+                        {dictionary?.nav?.history || 'History'}
                       </Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild>
-                      <Link href="/pricing" className="flex items-center">
+                      <Link href={createLocalizedLink('/pricing')} className="flex items-center">
                         <CreditCard className="mr-2 h-4 w-4" />
                         Buy Credits
                       </Link>
@@ -140,15 +157,15 @@ const Navbar = () => {
                     <DropdownMenuSeparator />
                     <DropdownMenuItem onClick={signOut} className="flex items-center">
                       <LogOut className="mr-2 h-4 w-4" />
-                      Sign Out
+                      {dictionary?.auth?.logout || 'Sign Out'}
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
               </>
             ) : (
               <div className="flex items-center">
-                <Link href="/auth">
-                  <Button>Sign In</Button>
+                <Link href={createLocalizedLink('/auth')}>
+                  <Button>{dictionary?.auth?.login || 'Sign In'}</Button>
                 </Link>
               </div>
             )}
@@ -159,4 +176,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar 
+export default Navbar

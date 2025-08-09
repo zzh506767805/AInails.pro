@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Home",
+    "pricing": "Prezzi", 
+    "history": "Cronologia",
+    "about": "Chi Siamo",
+    "contact": "Contatti",
+    "login": "Accedi",
+    "logout": "Esci"
+  },
+  "hero": {
+    "badge": "Generatore di Nail Art con IA",
+    "title": "Crea Belle Nail Art",
+    "subtitle": "con la Magia dell'IA",
+    "description": "Trasforma le tue idee di nail art in design straordinari utilizzando tecnologie IA all'avanguardia. Perfetto per nail artist, professionisti della bellezza e appassionati di nail art."
+  },
+  "generator": {
+    "title": "Generatore di Nail Art con IA", 
+    "description": "Descrivi il design delle unghie dei tuoi sogni e la nostra IA lo creerà per te",
+    "placeholder": "es. Manicure francese elegante con sfumature rosa e motivi floreali, perfetta per un matrimonio primaverile...",
+    "labels": {
+      "describe": "Descrivi il tuo design per le unghie",
+      "style": "Stile",
+      "colorPalette": "Palette di Colori", 
+      "quality": "Qualità",
+      "skinTone": "Tono della Pelle"
+    },
+    "styles": {
+      "elegant": "Elegante",
+      "bold": "Audace e Drammatico",
+      "minimalist": "Minimalista", 
+      "vintage": "Vintage",
+      "modern": "Moderno"
+    },
+    "colors": {
+      "pink": "Rosa e Rose",
+      "blue": "Blu e Viola",
+      "neutral": "Neutro",
+      "bright": "Brillante e Vivace", 
+      "dark": "Scuro e Misterioso"
+    },
+    "qualities": {
+      "medium": "Qualità Media (1 Credito)",
+      "high": "Alta Qualità (5 Crediti)"
+    },
+    "qualityNote": "La qualità media è perfetta per la maggior parte degli usi. L'alta qualità offre dettagli superiori per il lavoro professionale.",
+    "skinTones": {
+      "fair": "Tono di pelle chiaro",
+      "light": "Tono di pelle leggero", 
+      "medium": "Tono di pelle medio",
+      "olive": "Tono di pelle olivastro",
+      "brown": "Tono di pelle scuro",
+      "dark": "Tono di pelle molto scuro"
+    },
+    "skinToneNote": "Seleziona il tono di pelle che apparirà nel tuo design delle unghie",
+    "generate": "Genera Nail Art",
+    "generating": "Generando...",
+    "save": "Salva",
+    "share": "Condividi",
+    "download": "Scarica Tutto"
+  },
+  "footer": {
+    "description": "Generatore di nail art con IA per creare splendidi design per le unghie.",
+    "links": "Link Rapidi",
+    "resources": "Risorse", 
+    "support": "Supporto",
+    "legal": "Legale",
+    "privacy": "Privacy Policy",
+    "terms": "Termini di Servizio",
+    "contact": "Contattaci",
+    "about": "Chi Siamo"
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Qualcosa è andato storto",
+    "retry": "Riprova",
+    "close": "Chiudi",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "view": "Visualizza",
+    "share": "Condividi",
+    "download": "Scarica",
+    "copy": "Copia", 
+    "copied": "Copiato!",
+    "yes": "Sì",
+    "no": "No"
+  },
+  "pricing": {
+    "title": "Scegli il Tuo Piano di Crediti",
+    "titleWithCredits": "Aggiungi Altri Crediti",
+    "description": "Acquista crediti IA per generare splendidi design di nail art. Ogni credito può generare un'immagine di qualità media o 1/5 di un'immagine di alta qualità.",
+    "descriptionWithSubscription": "Hai un abbonamento {subscriptionName} attivo. Acquista crediti aggiuntivi qui sotto.",
+    "monthly": "Mensile",
+    "yearly": "Annuale",
+    "oneTime": "unica",
+    "mostPopular": "Più Popolare",
+    "getStarted": "Inizia",
+    "startFree": "Inizia Gratis",
+    "choosePlan": "Scegli Piano",
+    "buyNow": "Acquista Ora",
+    "currentPlan": "Piano Attuale",
+    "upgrade": "Aggiorna",
+    "features": "Caratteristiche",
+    "credits": "Crediti",
+    "support": "Supporto",
+    "priority": "Priorità",
+    "aiCredits": "Crediti IA",
+    "mediumQualityDesigns": "design di qualità media",
+    "highQualityDesigns": "design di alta qualità",
+    "noExpiration": "Senza scadenza",
+    "addedToSubscription": "Aggiunto al tuo abbonamento",
+    "plans": {
+      "free": {
+        "name": "Gratuito",
+        "description": "Perfetto per provare la generazione di nail art",
+        "features": {
+          "designs": "3 design di unghie gratuiti",
+          "quality": "Design di qualità standard",
+          "support": "Supporto di base",
+          "community": "Accesso alla comunità"
+        }
+      },
+      "basic": {
+        "name": "Base",
+        "description": "Perfetto per nail artist e professionisti della bellezza",
+        "features": {
+          "designs": "60 design di unghie",
+          "quality": "Design di qualità media",
+          "processing": "Elaborazione prioritaria",
+          "history": "Cronologia di base",
+          "support": "Supporto prioritario"
+        }
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Perfetto per creator di contenuti e aziende di bellezza",
+        "features": {
+          "designs": "120 design di unghie",
+          "basicFeatures": "Tutte le caratteristiche Base",
+          "quality": "Design di alta qualità",
+          "bulk": "Generazione in blocco",
+          "settings": "Impostazioni avanzate",
+          "support": "Supporto dedicato"
+        }
+      },
+      "max": {
+        "name": "Max",
+        "description": "Perfetto per studi professionali e grandi aziende",
+        "features": {
+          "designs": "300 design di unghie",
+          "proFeatures": "Tutte le caratteristiche Pro",
+          "api": "Accesso API",
+          "models": "Modelli personalizzati",
+          "support": "Supporto enterprise",
+          "whiteLabel": "Opzioni white-label"
+        }
+      }
+    },
+    "creditPackages": {
+      "mini": {
+        "name": "Pacchetto Mini",
+        "description": "Perfetto per piccoli progetti"
+      },
+      "standard": {
+        "name": "Pacchetto Standard",
+        "description": "Ottimo valore per uso regolare"
+      },
+      "pro": {
+        "name": "Pacchetto Pro",
+        "description": "Ideale per nail artist professionali"
+      },
+      "bulk": {
+        "name": "Pacchetto Bulk",
+        "description": "Miglior valore per esigenze ad alto volume"
+      }
+    },
+    "howCreditsWork": {
+      "title": "Come Funzionano i Crediti",
+      "consumption": {
+        "title": "Consumo di Crediti",
+        "mediumQuality": "Qualità Media",
+        "highQuality": "Alta Qualità",
+        "creditSingular": "Credito",
+        "creditsPlural": "Crediti"
+      },
+      "whatCanGenerate": {
+        "title": "Cosa Puoi Generare",
+        "freePlan": "Piano Gratuito (3 crediti)",
+        "basicPlan": "Piano Base (60 crediti)",
+        "proPlan": "Piano Pro (120 crediti)",
+        "maxPlan": "Piano Max (300 crediti)",
+        "mediumDesigns": "design di qualità media, o",
+        "highDesigns": "design di alta qualità"
+      }
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "howToStart": {
+        "question": "Come iniziare?",
+        "answer": "Registrati per un account gratuito e ottieni 3 crediti IA gratuiti. Nessuna carta di credito richiesta, inizia subito a sperimentare la generazione di nail art IA."
+      },
+      "qualityDifference": {
+        "question": "Qual è la differenza tra i livelli di qualità?",
+        "answer": "La qualità media (1 credito) fornisce buoni risultati per la maggior parte dei casi d'uso. L'alta qualità (5 crediti) offre dettagli superiori e risoluzione per lavoro professionale."
+      },
+      "commercialUse": {
+        "question": "Posso utilizzare i design commercialmente?",
+        "answer": "Tutti i design di nail art generati appartengono all'utente e possono essere utilizzati liberamente per scopi commerciali senza licenze aggiuntive."
+      },
+      "upgradePlan": {
+        "question": "Come faccio ad aggiornare il mio piano?",
+        "answer": "Puoi aggiornare o declassare il tuo piano in qualsiasi momento nelle impostazioni del tuo account, con tariffe calcolate proporzionalmente."
+      }
+    }
+  },
+  "auth": {
+    "login": "Accedi",
+    "logout": "Esci", 
+    "signup": "Registrati",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Password dimenticata?",
+    "loginWith": "Accedi con",
+    "signupWith": "Registrati con",
+    "alreadyHaveAccount": "Hai già un account?",
+    "dontHaveAccount": "Non hai un account?"
+  },
+  "seo": {
+    "title": "AI Nails: Genera Splendidi Design per Unghie con l'IA",
+    "introduction": "Benvenuto su AI Nails, la tua destinazione principale per l'ispirazione nail art alimentata dall'IA. Che tu sia un nail artist, proprietario di un salone o semplicemente alla scoperta di stili creativi, il nostro strumento di design per unghie con IA ti aiuta a creare look per unghie trendy e personalizzati in pochi secondi.",
+    "whatIsTitle": "Cos'è AI Nails?",
+    "whatIsDescription": "AI Nails è un generatore intelligente di nail art che utilizza intelligenza artificiale avanzata per creare design per unghie belli e realistici basati sulle tue preferenze. Dalle unghie minimaliste ai look cromati audaci, la nostra IA copre ogni stile, colore e pattern immaginabile.",
+    "whyUseTitle": "Perché Usare l'IA per il Design delle Unghie?",
+    "benefits": {
+      "instant": "Ottieni idee per unghie generate dall'IA istantaneamente, adattate al tuo stile",
+      "discover": "Scopri migliaia di design per unghie con IA unici",
+      "save": "Risparmia tempo e denaro—niente più scrolling infinito su Pinterest",
+      "perfect": "Perfetto per saloni, contenuti social media o per provare nuovi look a casa"
+    },
+    "featuredTitle": "Design di Nail Art in Evidenza",
+    "featuredDescription": "Esplora la nostra collezione di splendidi design di nail art, che mostrano la versatilità e creatività del nostro generatore di nail art con IA. Ogni design rappresenta stili e tecniche diverse nella nail art moderna, fornendo ispirazione per la tua prossima manicure.",
+    "mainTitle": "Generatore di Nail Art con IA: Rivoluzionare la Creazione di Design per Unghie",
+    "mainDescription": "Il nostro generatore di nail art con IA rappresenta l'avanguardia della tecnologia di design per unghie, combinando intelligenza artificiale con tecniche creative di nail art per offrire design per unghie straordinari e personalizzati. Che tu sia un nail artist professionista in cerca di ispirazione o un appassionato di bellezza che esplora le tendenze della nail art, la nostra piattaforma fornisce gli strumenti necessari per creare design per unghie eccezionali.",
+    "mainContent": {
+      "paragraph1": "Il generatore di nail art utilizza algoritmi di machine learning avanzati per comprendere le tue preferenze di stile e creare design per unghie unici che corrispondono alla tua personalità. Dalle classiche manicure francesi ai pattern geometrici audaci, la nostra tecnologia di design per unghie con IA può generare migliaia di variazioni, assicurandoti di non rimanere mai senza idee per nail art.",
+      "paragraph2": "I nail artist professionali si rivolgono sempre più spesso agli strumenti di nail art con IA per semplificare il loro flusso di lavoro e offrire ai clienti più opzioni di design. Il nostro generatore di design per unghie aiuta gli artisti a creare nail art personalizzata rapidamente, permettendo loro di concentrarsi sul perfezionare la loro tecnica e fornire un servizio eccezionale."
+    },
+    "features": {
+      "advanced": "Nail Art con IA Avanzata",
+      "advancedDesc": "Il nostro sofisticato generatore di nail art con IA utilizza deep learning per creare design per unghie di qualità professionale. Il sistema analizza le tendenze attuali della nail art e genera idee innovative di design per unghie che sono sia alla moda che uniche.",
+      "custom": "Creazione di Design per Unghie Personalizzati",
+      "customDesc": "Crea design di nail art personalizzati su misura per le tue preferenze di stile. Il nostro generatore di design per unghie considera schemi di colori, pattern e occasioni per produrre nail art perfetta per qualsiasi evento o umore.",
+      "professional": "Strumenti Professionali per Nail Art",
+      "professionalDesc": "Accedi a strumenti professionali per nail art e software di design per unghie che rivaleggia con gli standard dell'industria. La nostra piattaforma fornisce ai nail artist la tecnologia necessaria per creare design per unghie straordinari in modo efficiente.",
+      "inspiration": "Galleria di Ispirazione per Nail Art",
+      "inspirationDesc": "Sfoglia migliaia di design di nail art e idee per design per unghie create dalla nostra IA. Trova ispirazione per il tuo prossimo progetto di nail art o scopri nuove tendenze di nail art da provare.",
+      "education": "Risorse Educative per Nail Art",
+      "educationDesc": "Impara tecniche avanzate di nail art e principi di design per unghie attraverso i nostri tutorial completi. Padroneggia l'arte di creare bellissimi design per unghie con guida esperta e assistenza IA.",
+      "business": "Soluzioni Business per Nail Art",
+      "businessDesc": "Fai crescere la tua attività di nail art con i nostri strumenti e risorse professionali. La nostra piattaforma aiuta i nail artist a semplificare il loro flusso di lavoro e offrire ai clienti servizi innovativi di design per unghie."
+    },
+    "faq": {
+      "title": "Domande Frequenti sulla Generazione di Nail Art con IA",
+      "questions": {
+        "howWorks": {
+          "question": "Come funziona il generatore di nail art con IA?",
+          "answer": "Il nostro generatore di nail art con IA utilizza algoritmi di machine learning avanzati per analizzare migliaia di design per unghie e creare nail art unica basata sulle tue preferenze. Il sistema considera la teoria dei colori, le tendenze attuali della nail art e i principi di design per generare design per unghie di qualità professionale."
+        },
+        "customize": {
+          "question": "Posso personalizzare i design per unghie generati?",
+          "answer": "Assolutamente! Il nostro generatore di design per unghie ti permette di personalizzare colori, pattern e stili per creare nail art personalizzata. Puoi modificare qualsiasi aspetto dei design di nail art generati per adattarli esattamente alle tue preferenze."
+        },
+        "professional": {
+          "question": "La nail art con IA è adatta per uso professionale?",
+          "answer": "Sì! I nail artist professionali usano i nostri strumenti di nail art con IA per creare design personalizzati per i clienti. I design per unghie generati soddisfano gli standard dell'industria e possono essere adattati per varie tecniche e applicazioni di nail art."
+        },
+        "trends": {
+          "question": "Quanto spesso vengono aggiunte nuove tendenze di nail art?",
+          "answer": "Il nostro generatore di nail art viene continuamente aggiornato con le ultime tendenze di nail art e idee per design per unghie. Monitoriamo le tendenze della moda e gli sviluppi dell'industria della bellezza per assicurare che la nostra IA crei design per unghie rilevanti e alla moda."
+        }
+      }
+    },
+    "cta": {
+      "title": "Perché Scegliere il Nostro Generatore di Nail Art con IA?",
+      "forArtists": "Per i Nail Artist",
+      "forEnthusiasts": "Per gli Appassionati di Bellezza",
+      "artistBenefits": {
+        "designs": "Accesso a migliaia di design di nail art",
+        "tools": "Strumenti e risorse professionali per nail art",
+        "workflow": "Flusso di lavoro semplificato per design di unghie",
+        "trends": "Ultime tendenze e tecniche di nail art",
+        "business": "Opportunità di crescita del business"
+      },
+      "enthusiastBenefits": {
+        "personalized": "Idee personalizzate per nail art",
+        "easy": "Generatore di design per unghie facile da usare",
+        "trendy": "Design di nail art alla moda",
+        "educational": "Risorse educative per nail art",
+        "affordable": "Soluzioni di nail art convenienti"
+      },
+      "finalTitle": "Inizia a Creare Bellissime Nail Art Oggi",
+      "finalDescription": "Unisciti a migliaia di nail artist e appassionati di bellezza che stanno già usando il nostro generatore di nail art con IA per creare design per unghie straordinari. Sperimenta il futuro della creazione di nail art con tecnologia di design per unghie all'avanguardia che rende la bellissima nail art accessibile a tutti."
+    }
+  }
+}

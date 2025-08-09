@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "pricing": "Tarifs", 
+    "history": "Historique",
+    "about": "À propos",
+    "contact": "Contact",
+    "login": "Se connecter",
+    "logout": "Se déconnecter"
+  },
+  "hero": {
+    "badge": "Générateur d'Art d'Ongles IA",
+    "title": "Créez de Beaux Arts d'Ongles",
+    "subtitle": "avec la Magie de l'IA",
+    "description": "Transformez vos idées d'art d'ongles en designs époustouflants en utilisant une technologie IA de pointe. Parfait pour les artistes d'ongles, les professionnels de la beauté et les passionnés d'art d'ongles."
+  },
+  "generator": {
+    "title": "Générateur d'Art d'Ongles IA", 
+    "description": "Décrivez le design d'ongles de vos rêves et notre IA le créera pour vous",
+    "placeholder": "ex., Manucure française élégante avec dégradé rose et motifs floraux, parfaite pour un mariage de printemps...",
+    "labels": {
+      "describe": "Décrivez votre design d'ongles",
+      "style": "Style",
+      "colorPalette": "Palette de couleurs", 
+      "quality": "Qualité",
+      "skinTone": "Teint de peau"
+    },
+    "styles": {
+      "elegant": "Élégant",
+      "bold": "Audacieux et Dramatique",
+      "minimalist": "Minimaliste", 
+      "vintage": "Vintage",
+      "modern": "Moderne"
+    },
+    "colors": {
+      "pink": "Rose et Rosé",
+      "blue": "Bleu et Violet",
+      "neutral": "Neutre",
+      "bright": "Brillant et Vibrant", 
+      "dark": "Sombre et Mystérieux"
+    },
+    "qualities": {
+      "medium": "Qualité Moyenne (1 Crédit)",
+      "high": "Haute Qualité (5 Crédits)"
+    },
+    "qualityNote": "La qualité moyenne est parfaite pour la plupart des utilisations. La haute qualité offre des détails supérieurs pour le travail professionnel.",
+    "skinTones": {
+      "fair": "Teint de peau clair",
+      "light": "Teint de peau léger", 
+      "medium": "Teint de peau moyen",
+      "olive": "Teint de peau olive",
+      "brown": "Teint de peau brun",
+      "dark": "Teint de peau foncé"
+    },
+    "skinToneNote": "Sélectionnez le teint de peau qui apparaîtra dans votre design d'ongles",
+    "generate": "Générer l'Art d'Ongles",
+    "generating": "Génération...",
+    "save": "Sauvegarder",
+    "share": "Partager",
+    "download": "Télécharger Tout"
+  },
+  "footer": {
+    "description": "Générateur d'art d'ongles IA pour créer de beaux designs d'ongles.",
+    "links": "Liens Rapides",
+    "resources": "Ressources", 
+    "support": "Support",
+    "legal": "Légal",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions de Service",
+    "contact": "Nous Contacter",
+    "about": "À propos de nous"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Quelque chose s'est mal passé",
+    "retry": "Réessayer",
+    "close": "Fermer",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "share": "Partager",
+    "download": "Télécharger",
+    "copy": "Copier", 
+    "copied": "Copié!",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "pricing": {
+    "title": "Choisissez Votre Forfait de Crédits",
+    "titleWithCredits": "Ajouter Plus de Crédits",
+    "description": "Achetez des crédits IA pour générer de magnifiques créations de nail art. Chaque crédit peut générer une image de qualité moyenne ou 1/5 d'une image haute qualité.",
+    "descriptionWithSubscription": "Vous avez un abonnement {subscriptionName} actif. Achetez des crédits supplémentaires ci-dessous.",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "oneTime": "unique",
+    "mostPopular": "Le Plus Populaire",
+    "getStarted": "Commencer",
+    "startFree": "Commencer Gratuitement",
+    "choosePlan": "Choisir le Plan",
+    "buyNow": "Acheter Maintenant",
+    "currentPlan": "Plan Actuel",
+    "upgrade": "Mettre à Niveau",
+    "features": "Fonctionnalités",
+    "credits": "Crédits",
+    "support": "Support",
+    "priority": "Priorité",
+    "aiCredits": "Crédits IA",
+    "mediumQualityDesigns": "créations de qualité moyenne",
+    "highQualityDesigns": "créations haute qualité",
+    "noExpiration": "Sans expiration",
+    "addedToSubscription": "Ajouté à votre abonnement",
+    "plans": {
+      "free": {
+        "name": "Gratuit",
+        "description": "Parfait pour essayer la génération de nail art",
+        "features": {
+          "designs": "3 créations d'ongles gratuites",
+          "quality": "Créations de qualité standard",
+          "support": "Support de base",
+          "community": "Accès à la communauté"
+        }
+      },
+      "basic": {
+        "name": "Basique",
+        "description": "Parfait pour les nail artists et professionnels de la beauté",
+        "features": {
+          "designs": "60 créations d'ongles",
+          "quality": "Créations de qualité moyenne",
+          "processing": "Traitement prioritaire",
+          "history": "Historique de base",
+          "support": "Support prioritaire"
+        }
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Parfait pour les créateurs de contenu et entreprises beauté",
+        "features": {
+          "designs": "120 créations d'ongles",
+          "basicFeatures": "Toutes les fonctionnalités Basiques",
+          "quality": "Créations haute qualité",
+          "bulk": "Génération en lot",
+          "settings": "Paramètres avancés",
+          "support": "Support dédié"
+        }
+      },
+      "max": {
+        "name": "Max",
+        "description": "Parfait pour les studios professionnels et grandes entreprises",
+        "features": {
+          "designs": "300 créations d'ongles",
+          "proFeatures": "Toutes les fonctionnalités Pro",
+          "api": "Accès API",
+          "models": "Modèles personnalisés",
+          "support": "Support entreprise",
+          "whiteLabel": "Options marque blanche"
+        }
+      }
+    },
+    "creditPackages": {
+      "mini": {
+        "name": "Pack Mini",
+        "description": "Parfait pour les petits projets"
+      },
+      "standard": {
+        "name": "Pack Standard",
+        "description": "Excellent rapport qualité-prix pour usage régulier"
+      },
+      "pro": {
+        "name": "Pack Pro",
+        "description": "Idéal pour les nail artists professionnels"
+      },
+      "bulk": {
+        "name": "Pack Massif",
+        "description": "Meilleur rapport qualité-prix pour besoins élevés"
+      }
+    },
+    "howCreditsWork": {
+      "title": "Comment Fonctionnent les Crédits",
+      "consumption": {
+        "title": "Consommation de Crédits",
+        "mediumQuality": "Qualité Moyenne",
+        "highQuality": "Haute Qualité",
+        "creditSingular": "Crédit",
+        "creditsPlural": "Crédits"
+      },
+      "whatCanGenerate": {
+        "title": "Ce Que Vous Pouvez Générer",
+        "freePlan": "Plan Gratuit (3 crédits)",
+        "basicPlan": "Plan Basique (60 crédits)",
+        "proPlan": "Plan Pro (120 crédits)",
+        "maxPlan": "Plan Max (300 crédits)",
+        "mediumDesigns": "créations de qualité moyenne, ou",
+        "highDesigns": "créations haute qualité"
+      }
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "howToStart": {
+        "question": "Comment puis-je commencer ?",
+        "answer": "Inscrivez-vous pour un compte gratuit et obtenez 3 crédits IA gratuits. Aucune carte bancaire requise, commencez immédiatement à expérimenter la génération de nail art IA."
+      },
+      "qualityDifference": {
+        "question": "Quelle est la différence entre les niveaux de qualité ?",
+        "answer": "La qualité moyenne (1 crédit) offre de bons résultats pour la plupart des usages. La haute qualité (5 crédits) offre des détails et une résolution supérieurs pour le travail professionnel."
+      },
+      "commercialUse": {
+        "question": "Puis-je utiliser les créations commercialement ?",
+        "answer": "Toutes les créations de nail art générées appartiennent à l'utilisateur et peuvent être librement utilisées à des fins commerciales sans licence supplémentaire."
+      },
+      "upgradePlan": {
+        "question": "Comment puis-je mettre à niveau mon plan ?",
+        "answer": "Vous pouvez mettre à niveau ou rétrograder votre plan à tout moment dans les paramètres de votre compte, avec des frais calculés proportionnellement."
+      }
+    }
+  },
+  "auth": {
+    "login": "Se Connecter",
+    "logout": "Se Déconnecter", 
+    "signup": "S'inscrire",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié?",
+    "loginWith": "Se connecter avec",
+    "signupWith": "S'inscrire avec",
+    "alreadyHaveAccount": "Vous avez déjà un compte?",
+    "dontHaveAccount": "Vous n'avez pas de compte?"
+  },
+  "seo": {
+    "title": "AI Nails : Générez de Superbes Designs d'Ongles avec l'IA",
+    "introduction": "Bienvenue sur AI Nails, votre destination ultime pour l'inspiration en art d'ongles alimentée par l'IA. Que vous soyez un artiste d'ongles, propriétaire de salon, ou que vous exploriez simplement des styles créatifs, notre outil de design d'ongles IA vous aide à créer des looks d'ongles tendance et personnalisés en quelques secondes.",
+    "whatIsTitle": "Qu'est-ce qu'AI Nails ?",
+    "whatIsDescription": "AI Nails est un générateur intelligent d'art d'ongles qui utilise une intelligence artificielle avancée pour générer de beaux designs d'ongles réalistes basés sur vos préférences. Des ongles minimalistes aux looks chromés audacieux, notre IA couvre tous les styles, couleurs et motifs imaginables.",
+    "whyUseTitle": "Pourquoi utiliser l'IA pour le Design d'Ongles ?",
+    "benefits": {
+      "instant": "Obtenez des idées d'ongles générées par IA instantanées adaptées à votre style",
+      "discover": "Découvrez des milliers de designs d'ongles IA uniques",
+      "save": "Économisez temps et argent—fini le défilement sans fin sur Pinterest",
+      "perfect": "Parfait pour les salons, le contenu des réseaux sociaux, ou essayer de nouveaux looks à la maison"
+    },
+    "featuredTitle": "Designs d'Art d'Ongles en Vedette",
+    "featuredDescription": "Explorez notre collection de designs d'art d'ongles époustouflants, mettant en valeur la polyvalence et la créativité de notre générateur d'art d'ongles IA. Chaque design représente différents styles et techniques dans l'art d'ongles moderne, fournissant l'inspiration pour votre prochaine manucure.",
+    "mainTitle": "Générateur d'Art d'Ongles IA : Révolutionner la Création de Designs d'Ongles",
+    "mainDescription": "Notre générateur d'art d'ongles IA représente la pointe de la technologie de design d'ongles, combinant intelligence artificielle avec des techniques créatives d'art d'ongles pour livrer des designs d'ongles époustouflants et personnalisés. Que vous soyez un artiste d'ongles professionnel cherchant l'inspiration ou un passionné de beauté explorant les tendances d'art d'ongles, notre plateforme fournit les outils dont vous avez besoin pour créer des designs d'ongles exceptionnels.",
+    "mainContent": {
+      "paragraph1": "Le générateur d'art d'ongles utilise des algorithmes d'apprentissage automatique avancés pour comprendre vos préférences de style et créer des designs d'ongles uniques qui correspondent à votre personnalité. Des manucures françaises classiques aux motifs géométriques audacieux, notre technologie de design d'ongles IA peut générer des milliers de variations, vous assurant de ne jamais manquer d'idées d'art d'ongles.",
+      "paragraph2": "Les artistes d'ongles professionnels se tournent de plus en plus vers les outils d'art d'ongles IA pour rationaliser leur flux de travail et offrir aux clients plus d'options de design. Notre générateur de design d'ongles aide les artistes à créer rapidement de l'art d'ongles personnalisé, leur permettant de se concentrer sur le perfectionnement de leur technique et la fourniture d'un service exceptionnel."
+    },
+    "features": {
+      "advanced": "IA Avancée d'Art d'Ongles",
+      "advancedDesc": "Notre générateur sophistiqué d'art d'ongles IA utilise l'apprentissage profond pour créer des designs d'ongles de qualité professionnelle. Le système analyse les tendances actuelles d'art d'ongles et génère des idées de design d'ongles innovantes qui sont à la fois fashion et uniques.",
+      "custom": "Création de Design d'Ongles Personnalisé",
+      "customDesc": "Créez des designs d'art d'ongles personnalisés adaptés à vos préférences de style. Notre générateur de design d'ongles considère les schémas de couleurs, les motifs et les occasions pour produire de l'art d'ongles parfait pour tout événement ou humeur.",
+      "professional": "Outils Professionnels d'Art d'Ongles",
+      "professionalDesc": "Accédez à des outils d'art d'ongles et logiciels de design d'ongles de niveau professionnel qui rivalisent avec les standards de l'industrie. Notre plateforme fournit aux artistes d'ongles la technologie dont ils ont besoin pour créer efficacement des designs d'ongles époustouflants.",
+      "inspiration": "Galerie d'Inspiration d'Art d'Ongles",
+      "inspirationDesc": "Parcourez des milliers de designs d'art d'ongles et d'idées de design d'ongles créés par notre IA. Trouvez l'inspiration pour votre prochain projet d'art d'ongles ou découvrez de nouvelles tendances d'art d'ongles à essayer.",
+      "education": "Ressources Éducatives d'Art d'Ongles",
+      "educationDesc": "Apprenez des techniques avancées d'art d'ongles et les principes de design d'ongles grâce à nos tutoriels complets. Maîtrisez l'art de créer de beaux designs d'ongles avec des conseils d'experts et l'assistance IA.",
+      "business": "Solutions Business d'Art d'Ongles",
+      "businessDesc": "Développez votre business d'art d'ongles avec nos outils et ressources professionnels. Notre plateforme aide les artistes d'ongles à rationaliser leur flux de travail et offrir des services de design d'ongles innovants aux clients."
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées sur la Génération d'Art d'Ongles IA",
+      "questions": {
+        "howWorks": {
+          "question": "Comment fonctionne le générateur d'art d'ongles IA ?",
+          "answer": "Notre générateur d'art d'ongles IA utilise des algorithmes d'apprentissage automatique avancés pour analyser des milliers de designs d'ongles et créer de l'art d'ongles unique basé sur vos préférences. Le système considère la théorie des couleurs, les tendances actuelles d'art d'ongles et les principes de design pour générer des designs d'ongles de qualité professionnelle."
+        },
+        "customize": {
+          "question": "Puis-je personnaliser les designs d'ongles générés ?",
+          "answer": "Absolument ! Notre générateur de design d'ongles vous permet de personnaliser les couleurs, motifs et styles pour créer de l'art d'ongles personnalisé. Vous pouvez modifier tout aspect des designs d'art d'ongles générés pour correspondre à vos préférences exactes."
+        },
+        "professional": {
+          "question": "L'art d'ongles IA est-il adapté à un usage professionnel ?",
+          "answer": "Oui ! Les artistes d'ongles professionnels utilisent nos outils d'art d'ongles IA pour créer des designs personnalisés pour les clients. Les designs d'ongles générés répondent aux standards de l'industrie et peuvent être adaptés pour diverses techniques et applications d'art d'ongles."
+        },
+        "trends": {
+          "question": "À quelle fréquence de nouvelles tendances d'art d'ongles sont-elles ajoutées ?",
+          "answer": "Notre générateur d'art d'ongles est continuellement mis à jour avec les dernières tendances d'art d'ongles et idées de design d'ongles. Nous surveillons les tendances de la mode et les développements de l'industrie de la beauté pour s'assurer que notre IA crée des designs d'ongles pertinents et fashion."
+        }
+      }
+    },
+    "cta": {
+      "title": "Pourquoi choisir notre Générateur d'Art d'Ongles IA ?",
+      "forArtists": "Pour les Artistes d'Ongles",
+      "forEnthusiasts": "Pour les Passionnés de Beauté",
+      "artistBenefits": {
+        "designs": "Accès à des milliers de designs d'art d'ongles",
+        "tools": "Outils et ressources professionnels d'art d'ongles",
+        "workflow": "Flux de travail de design d'ongles optimisé",
+        "trends": "Dernières tendances et techniques d'art d'ongles",
+        "business": "Opportunités de croissance d'entreprise"
+      },
+      "enthusiastBenefits": {
+        "personalized": "Idées d'art d'ongles personnalisées",
+        "easy": "Générateur de design d'ongles facile à utiliser",
+        "trendy": "Designs d'art d'ongles tendance",
+        "educational": "Ressources éducatives d'art d'ongles",
+        "affordable": "Solutions d'art d'ongles abordables"
+      },
+      "finalTitle": "Commencez à Créer de Beaux Arts d'Ongles Aujourd'hui",
+      "finalDescription": "Rejoignez des milliers d'artistes d'ongles et de passionnés de beauté qui utilisent déjà notre générateur d'art d'ongles IA pour créer des designs d'ongles époustouflants. Découvrez l'avenir de la création d'art d'ongles avec une technologie de design d'ongles de pointe qui rend le bel art d'ongles accessible à tous."
+    }
+  }
+}
