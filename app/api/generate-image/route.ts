@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
+import { uploadImageToCloudinary } from '@/lib/cloudinary'
 
 const AZURE_ENDPOINT = process.env.AZURE_ENDPOINT 
 const AZURE_API_KEY = process.env.AZURE_API_KEY
@@ -12,16 +13,16 @@ const CREDIT_COSTS = {
 
 // 美甲提示词优化 - 添加专业的前缀和后缀
 const NAIL_ART_PREFIX = "Professional close-up photography of a manicure on a hand with"
-const NAIL_ART_SUFFIX = ", high-resolution, beauty salon quality, professionally lit, detailed nail structure, on a clean neutral background, focused on nails"
+const NAIL_ART_SUFFIX = ". High-resolution, beauty salon quality, professionally lit, detailed nail structure, accurate skin tone representation, on a clean neutral background, focused on nails and hand"
 
-// 肤色对应的描述
+// 肤色对应的精确描述，避免生成偏暗效果
 const SKIN_TONE_DESCRIPTIONS = {
-  'fair': 'fair skin tone',
-  'light': 'light skin tone',
-  'medium': 'medium skin tone',
-  'olive': 'olive skin tone', 
-  'brown': 'brown skin tone',
-  'dark': 'dark skin tone'
+  'fair': 'very fair, pale, porcelain skin tone with pink undertones, light complexion',
+  'light': 'light, peachy-beige skin tone with warm undertones, bright complexion',
+  'medium': 'medium, golden-beige skin tone with neutral undertones, natural complexion',
+  'olive': 'olive, warm golden-brown skin tone with yellow-green undertones, Mediterranean complexion',
+  'brown': 'rich brown, caramel skin tone with warm golden undertones, warm complexion',
+  'dark': 'deep, rich brown skin tone with warm undertones, deep complexion'
 }
 
 // 添加简明的API文档
@@ -138,8 +139,8 @@ export async function POST(request: NextRequest) {
     // 获取对应的肤色描述
     const skinToneDescription = SKIN_TONE_DESCRIPTIONS[normalizedSkinTone as keyof typeof SKIN_TONE_DESCRIPTIONS] || SKIN_TONE_DESCRIPTIONS.medium
     
-    // 优化提示词，加入肤色描述和专业美甲描述
-    const enhancedPrompt = `${NAIL_ART_PREFIX} ${skinToneDescription}: ${prompt} ${NAIL_ART_SUFFIX}`
+    // 优化提示词，突出肤色描述和专业美甲描述
+    const enhancedPrompt = `${NAIL_ART_PREFIX} ${skinToneDescription}, showcasing: ${prompt}. ${NAIL_ART_SUFFIX}. Ensure accurate skin tone representation matching the specified complexion.`
     
     console.log("生成图片的优化提示词:", enhancedPrompt)
 
@@ -184,16 +185,39 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Process multiple images
-    const images = data.data.map((item: any) => {
+    // Process multiple images and upload to Cloudinary
+    const generationId = `gen_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`
+    const cloudinaryImages = []
+    
+    for (let i = 0; i < data.data.length; i++) {
+      const item = data.data[i]
       if (!item.b64_json) {
         throw new Error('Missing image data')
       }
-      return `data:image/${output_format};base64,${item.b64_json}`
-    })
-
-    // 生成成功后消耗credits - 直接调用Supabase而不是内部API
-    const generationId = `gen_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`
+      
+      // Upload to Cloudinary with a meaningful public ID
+      const publicId = `${currentUser.id}/${generationId}_${i + 1}`
+      const uploadResult = await uploadImageToCloudinary(
+        item.b64_json,
+        'ainails', // folder
+        publicId
+      )
+      
+      if (!uploadResult.success) {
+        console.error('Cloudinary upload failed:', uploadResult.error)
+        throw new Error('Failed to upload image to Cloudinary')
+      }
+      
+      cloudinaryImages.push({
+        url: uploadResult.url,
+        publicId: uploadResult.publicId,
+        width: uploadResult.width,
+        height: uploadResult.height,
+        bytes: uploadResult.bytes
+      })
+    }
+    
+    console.log(`Successfully uploaded ${cloudinaryImages.length} images to Cloudinary`)
     
     // 直接更新用户积分，避免内部API调用
     const { error: consumeError } = await supabase
@@ -232,7 +256,8 @@ export async function POST(request: NextRequest) {
         generation_type: 'text-to-image', // 只保留text-to-image类型
         prompt: prompt, // 保存原始提示词
         enhanced_prompt: enhancedPrompt, // 保存优化后的提示词
-        result_url: images[0], // 存储第一张图片的URL
+        result_url: cloudinaryImages[0].url, // 存储第一张图片的Cloudinary URL
+        cloudinary_public_id: cloudinaryImages[0].publicId, // 存储Cloudinary public ID用于后续操作
         credits_used: creditsNeeded,
         model: 'dall-e-3',
         quality: quality,
@@ -242,7 +267,8 @@ export async function POST(request: NextRequest) {
           output_format: output_format,
           generation_id: generationId,
           credits_consumed: creditsConsumed, // 添加积分消费状态
-          skinTone: normalizedSkinTone // 保存用户选择的肤色
+          skinTone: normalizedSkinTone, // 保存用户选择的肤色
+          cloudinary_images: cloudinaryImages // 保存所有Cloudinary图片信息
         }
       })
     
@@ -252,11 +278,11 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({
       success: true,
-      images,
-      count: images.length,
+      images: cloudinaryImages.map(img => img.url), // Return Cloudinary URLs
+      cloudinaryImages: cloudinaryImages, // Full Cloudinary image info
+      count: cloudinaryImages.length,
       // Keep backward compatibility
-      image: data.data[0].b64_json,
-      imageUrl: images[0],
+      imageUrl: cloudinaryImages[0].url, // Primary image URL from Cloudinary
       creditsConsumed: creditsConsumed,
       creditsNeeded: creditsNeeded,
       remainingCredits: creditsConsumed ? 

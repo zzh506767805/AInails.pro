@@ -78,7 +78,15 @@ export async function POST(request: NextRequest) {
     }
 
     const body = await request.json()
-    const { localId, prompt, originalFilename, settings, generationType } = body
+    const { 
+      localId, 
+      prompt, 
+      imageUrl,
+      cloudinaryPublicId,
+      originalFilename, 
+      settings, 
+      generationType 
+    } = body
 
     // 验证必需字段
     if (!prompt || !generationType) {
@@ -88,17 +96,32 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // 保存到数据库（只保存基本元数据）
+    // 准备数据库插入数据
+    const insertData: any = {
+      user_id: user.id,
+      prompt,
+      original_filename: originalFilename,
+      settings: settings || {},
+      generation_type: generationType
+    }
+
+    // 处理不同的图片存储方式
+    if (imageUrl && imageUrl.includes('cloudinary.com')) {
+      // Cloudinary URL
+      insertData.result_url = imageUrl
+      if (cloudinaryPublicId) {
+        insertData.cloudinary_public_id = cloudinaryPublicId
+      }
+    } else if (localId) {
+      // Local storage (legacy)
+      insertData.result_url = `local:${localId}`
+      insertData.local_id = localId
+    }
+
+    // 保存到数据库
     const { data: generation, error } = await supabase
       .from('image_generations')
-      .insert({
-        user_id: user.id,
-        prompt,
-        image_url: localId ? `local:${localId}` : null, // 使用特殊前缀标识本地存储
-        original_filename: originalFilename,
-        settings: settings || {},
-        generation_type: generationType
-      })
+      .insert(insertData)
       .select()
       .single()
 

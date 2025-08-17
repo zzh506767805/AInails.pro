@@ -16,7 +16,7 @@ export default async function Home({ params }: HomeProps) {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* First Screen - AI Nail Art Generator */}
-      <AINailArtGenerator locale={params.locale} dictionary={dictionary} />
+      <AINailArtGenerator dictionary={dictionary} />
       
       {/* SEO Rich Content */}
       <SEOContent locale={params.locale} dictionary={dictionary} />

@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "app/api/tasks/process/route.ts": {
+      "maxDuration": 300
+    },
+    "app/api/generate-image/route.ts": {
+      "maxDuration": 300
+    },
+    "app/api/tasks/cleanup/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}

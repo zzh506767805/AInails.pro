@@ -28,58 +28,90 @@ function generateId(): string {
 
 // 客户端数据库操作
 export const database = {
-  // 保存图像生成记录（新简化方案：只保存元数据 + 本地存储图片）
+  // 保存图像生成记录（Cloudinary方案：保存Cloudinary URL）
   async saveImageGeneration(data: {
     prompt: string
     imageUrl: string
     originalFilename?: string
     settings: Record<string, any>
     generationType: 'text-to-image' | 'image-edit' | 'pixar-style-convert' | 'ghibli-style-convert'
+    cloudinaryPublicId?: string
   }) {
-    if (!data.imageUrl.startsWith('data:image/')) {
-      throw new Error('Expected Base64 image data')
+    // Support both Cloudinary URLs and base64 (for backward compatibility)
+    const isCloudinaryUrl = data.imageUrl.includes('cloudinary.com')
+    const isBase64 = data.imageUrl.startsWith('data:image/')
+    
+    if (!isCloudinaryUrl && !isBase64) {
+      throw new Error('Expected Cloudinary URL or Base64 image data')
     }
 
     try {
-      // 生成唯一ID用于本地存储
-      const localId = generateId()
-      
-      // 1. 保存元数据到数据库
-      const response = await fetch('/api/generations', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          localId: localId, // 传递本地ID用于标识
+      // For Cloudinary URLs, save directly to database
+      if (isCloudinaryUrl) {
+        const response = await fetch('/api/generations', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            prompt: data.prompt,
+            imageUrl: data.imageUrl, // Cloudinary URL
+            cloudinaryPublicId: data.cloudinaryPublicId,
+            originalFilename: data.originalFilename,
+            settings: data.settings,
+            generationType: data.generationType
+          })
+        })
+
+        if (!response.ok) {
+          const errorData = await response.json()
+          throw new Error(errorData.message || 'Failed to save generation')
+        }
+
+        const result = await response.json()
+        console.log('Cloudinary图片记录已保存:', result.data.id)
+        return result.data
+      } else {
+        // Legacy base64 handling with local storage
+        const localId = generateId()
+        
+        // 1. 保存元数据到数据库
+        const response = await fetch('/api/generations', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            localId: localId, // 传递本地ID用于标识
+            prompt: data.prompt,
+            originalFilename: data.originalFilename,
+            settings: data.settings,
+            generationType: data.generationType
+          })
+        })
+
+        if (!response.ok) {
+          const errorData = await response.json()
+          throw new Error(errorData.message || 'Failed to save generation')
+        }
+
+        const result = await response.json()
+        const dbId = result.data.id // 数据库生成的UUID
+        
+        // 2. 使用数据库ID保存图片到本地存储
+        localImageStorage.saveImage({
+          id: dbId, // 使用数据库ID确保一致性
+          imageData: data.imageUrl,
           prompt: data.prompt,
-          originalFilename: data.originalFilename,
           settings: data.settings,
           generationType: data.generationType
         })
-      })
+        
+        console.log('Base64图片记录已保存:', dbId)
+        console.log('图片已保存到本地存储')
 
-      if (!response.ok) {
-        const errorData = await response.json()
-        throw new Error(errorData.message || 'Failed to save generation')
+        return result.data
       }
-
-      const result = await response.json()
-      const dbId = result.data.id // 数据库生成的UUID
-      
-      // 2. 使用数据库ID保存图片到本地存储
-      localImageStorage.saveImage({
-        id: dbId, // 使用数据库ID确保一致性
-        imageData: data.imageUrl,
-        prompt: data.prompt,
-        settings: data.settings,
-        generationType: data.generationType
-      })
-      
-      console.log('生成记录已保存:', dbId)
-      console.log('图片已保存到本地存储')
-
-      return result.data
     } catch (error) {
       console.error('保存失败:', error)
       throw new Error('Failed to save image generation')
